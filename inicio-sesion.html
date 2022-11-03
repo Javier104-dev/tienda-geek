@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Tienda AluraGeek</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
+    <link rel="stylesheet" href="assets/css/iniciar-sesion/login.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+</head>
+<body>
+    <header>
+        <section class="cabecera">
+            <div class="cabecera__imagenes">
+                <a href="#"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
+                <img src="assets/Imagenes/Barra_de_busqueda.png" alt="Barra busqueda">
+            </div>
+            <button class="cabecera__boton"> Login </button>
+        </section>
+    </header>
+    <main>
+        <section class="login">
+            <form action="" class="login__contenido">
+                <fieldset>
+                    <legend class="login__legend">Iniciar Sesión</legend>
+                    <div class="login__campos">
+                        <label class="login__campo__titulo" for="login__correo">Escriba su correo electronido</label>
+                        <input class="login_input" id="login__correo" type="text">
+                    </div>
+                    <div class="login__campos">
+                        <label class="login__campo__titulo" for="login__contraseña">Escriba su contraseña</label>
+                        <input class="login_input" id="login__contraseña" type="password">
+                    </div>
+                </fieldset>
+                <button class="login__boton">Entrar</button>
+            </form>
+        </section>
+        <section class="contacto">
+            <div class="contacto__seccion">
+                <a href=""><img src="assets/Imagenes/Logo.png" alt="Logo Tienda"></a>
+                <ul class="contacto__items">
+                    <li>Quienes somos</li>
+                    <li>Politicas de privacidad</li>
+                    <li>Programa de fidelidad</li>
+                    <li>Nuestras Tiendas</li>
+                    <li>Quiero ser franquiciado</li>
+                    <li>Anúncie aquí</li>
+                </ul>
+                <form action="" class="contacto__area">
+                    <fieldset class="contacto__area__inputs">
+                        <legend class="contacto__legend">Hable con nosotros</legend>
+                        <div class="contacto__nombre">
+                            <label for="input__nombre">Nombre</label>
+                            <input class="contacto__nombre__input" id="input__nombre" type="text">
+                        </div>
+                        <div class="contacto__mensaje">
+                            <label for="text__area">Escribe tu mensaje</label>
+                            <textarea name="" class="contacto__textarea" id="text__area" cols="0" rows="5"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                        </div>
+                    </fieldset>
+                    <button class="contacto__boton">Enviar mensaje</button>
+                </form>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <section class="footer">
+            <div class="footer__contenido">
+                <span>Desarrollado por Javier Villca</span>
+                <span>2022</span>
+            </div>
+        </section>
+    </footer>
+    </main>
+</body>
+</html>

@@ -40,6 +40,7 @@
 }
 
 .contacto__boton{
+    margin-top: 1rem;
     padding: 1rem;
     background: #2A7AE4;
     color: #FFFFFF;
@@ -56,10 +57,12 @@
     border: none;
     background: #FFFFFF;
     margin-top: 0.3rem;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 
 .contacto__nombre__input{
     border: none;
     background: #FFFFFF;
     margin-top: 0.3rem;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
