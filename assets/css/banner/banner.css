@@ -1,0 +1,37 @@
+.banner{
+    display: flex; /*con esto y el justify-content: flex-end; del __contenido hacemos que se baje .banner__contenido */
+    background: url(../../Imagenes/banner-image.png) center / cover no-repeat;
+    padding-right: 15% ;
+    padding-left: 15% ;
+    height: 30rem;
+}
+
+.banner__contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start; /*arreglamos el boton para que no se agrande a lo ancho*/
+    gap: 3rem;
+    padding: 2rem 0;
+}
+
+.banner__contenido__titulo{
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 4rem;
+}
+
+.banner__contenido__subtitulo{
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.banner__contenido__boton{
+    padding: 1rem;
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+}

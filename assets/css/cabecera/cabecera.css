@@ -1,0 +1,23 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.cabecera__imagenes{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cabecera__boton{
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    color: #2A7AE4;
+    box-sizing: border-box;
+    background: none;
+}
