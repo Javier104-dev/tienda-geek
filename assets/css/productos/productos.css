@@ -64,3 +64,7 @@
 .categoria-grupo{
     padding-top: 5rem;
 }
+
+.categoria-grupo:last-child{
+    padding-bottom: 5rem;
+}

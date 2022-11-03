@@ -1,0 +1,65 @@
+.contacto{
+    padding-left: 15%;
+    padding-right: 15%;
+    background: #EAF2FD;
+}
+
+.contacto__seccion{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.contacto__mensaje{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.contacto__area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: auto; /*auto ocupa todo el alto del contenedor, pero con 100% no sucedia*/
+}
+
+.contacto__nombre{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.contacto__items{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-weight: 500;
+    color: #464646;
+}
+
+.contacto__boton{
+    padding: 1rem;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+    align-self: flex-start; /*ponemos el boton a la izquierda*/ /*en la clase usamos align-items: initial;*/
+}
+
+.contacto__legend{
+    font-weight: 700;
+}
+
+.contacto__textarea{
+    resize: none;
+    border: none;
+    background: #FFFFFF;
+    margin-top: 0.3rem;
+}
+
+.contacto__nombre__input{
+    border: none;
+    background: #FFFFFF;
+    margin-top: 0.3rem;
+}
