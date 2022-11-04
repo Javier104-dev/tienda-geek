@@ -1,10 +1,13 @@
 .cabecera{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.cabecera__navegacion{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 0;
-    padding-left: 15%;
-    padding-right: 15%;
 }
 
 .cabecera__imagenes{

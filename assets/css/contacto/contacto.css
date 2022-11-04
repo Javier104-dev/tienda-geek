@@ -22,7 +22,8 @@
     flex-direction: column;
     justify-content: space-between;
     width: 50%;
-    height: auto; /*auto ocupa todo el alto del contenedor, pero con 100% no sucedia*/
+    /*height: auto;*/ /*auto ocupa todo el alto del contenedor, pero con 100% no sucedia*/
+    /*ya no es necesario por que le pusimos margin a los elementos y ahora el contenedor ocupa el espacio que le dimos con eso*/
 }
 
 .contacto__nombre{
