@@ -10,34 +10,47 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
-    <link rel="stylesheet" href="assets/css/iniciar-sesion/login.css">
+    <link rel="stylesheet" href="assets/css/nuevo-producto/nuevo-producto.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto.css">
     <link rel="stylesheet" href="assets/css/footer/footer.css">
 </head>
 <body>
     <header>
         <section class="cabecera">
-            <div class="cabecera__imagenes">
-                <a href="#"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
-                <img src="assets/Imagenes/Barra_de_busqueda.png" alt="Barra busqueda">
-            </div>
+            <nav class="cabecera__navegacion">
+                <div class="cabecera__imagenes">
+                    <a href="#"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
+                    <img src="assets/Imagenes/Barra_de_busqueda.png" alt="Barra busqueda">
+                </div>
+                <button class="cabecera__boton__administrador">Menu administrador</button>
+            </nav>
         </section>
     </header>
     <main>
-        <section class="login">
-            <form action="" class="login__contenido">
-                <fieldset>
-                    <legend class="login__legend">Iniciar Sesión</legend>
-                    <div class="login__campos">
-                        <label class="login__campo__titulo" for="login__correo">Escriba su correo electronido</label>
-                        <input class="login_input" id="login__correo" type="text">
-                    </div>
-                    <div class="login__campos">
-                        <label class="login__campo__titulo" for="login__contraseña">Escriba su contraseña</label>
-                        <input class="login_input" id="login__contraseña" type="password">
-                    </div>
-                </fieldset>
-                <button class="login__boton">Entrar</button>
+        <section class="nuevo-producto">
+            <form action="" class="nuevo-producto__contenido">
+                <legend class="nuevo-producto__legend">Agregar nuevo producto</legend>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__url" class="nuevo-producto__label">URL de imagen</label>
+                    <input id="nuevo-producto__url" type="text" class="nuevo-producto__input">
+                </div>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__categoria" class="nuevo-producto__label">Categoria</label>
+                    <input id="nuevo-producto__categoria" type="text" class="nuevo-producto__input">
+                </div>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__nombre" class="nuevo-producto__label">Nombre del producto</label>
+                    <input id="nuevo-producto__nombre" type="text" class="nuevo-producto__input">
+                </div>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__precio" class="nuevo-producto__label">Precio del producto</label>
+                    <input id="nuevo-producto__precio" type="text" class="nuevo-producto__input">
+                </div>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__area" class="nuevo-producto__label">Descripcion del producto</label>
+                    <textarea name="" id="nuevo-producto__area" class="nuevo-producto__input"></textarea>
+                </div>
+                <button class="nuevo-producto__boton">Agregar producto</button>
             </form>
         </section>
         <section class="contacto">
