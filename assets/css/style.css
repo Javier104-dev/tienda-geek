@@ -1,3 +1,13 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
+.container{
+    padding-left: calc((100% - 1330px)/2); /*con esto hacemos que todo tenga un ancho de 940px*/
+    /*El paddingtomará 100% el ancho de la página, imagina que tu página tiene 1000px el calc serial .100% 1000px
+
+    Después de eso, tomará las unidades 1000pxy restará 940px, sería 60px.
+
+    Y finalmente se dividirá por dos, obteniendo 30px.*/
+    padding-right: calc((100% - 1330px)/2);
+}

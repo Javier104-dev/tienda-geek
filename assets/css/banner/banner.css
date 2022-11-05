@@ -1,8 +1,6 @@
 .banner{
     display: flex; /*con esto y el justify-content: flex-end; del __contenido hacemos que se baje .banner__contenido */
     background: url(../../Imagenes/banner-image.png) center / cover no-repeat;
-    padding-right: 15% ;
-    padding-left: 15% ;
     height: 30rem;
 }
 
