@@ -25,16 +25,18 @@
     </header>
     <main>
         <section class="login">
-            <form action="" class="login__contenido">
+            <form action="todos-los-productos.html" class="login__contenido">
                 <fieldset>
                     <legend class="login__legend">Iniciar Sesión</legend>
                     <div class="login__campos">
                         <label class="login__campo__titulo" for="login__correo">Escriba su correo electronido</label>
-                        <input class="login_input" id="login__correo" type="text">
+                        <input class="login_input" id="login__correo" type="text" required data-tipo="correo" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$">
+                        <span class="mensaje-error"></span>
                     </div>
                     <div class="login__campos">
                         <label class="login__campo__titulo" for="login__contraseña">Escriba su contraseña</label>
-                        <input class="login_input" id="login__contraseña" type="password">
+                        <input class="login_input" id="login__contraseña" type="password" required data-tipo="contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" autocomplete="off" minlength="6" maxlength="12">
+                        <span class="mensaje-error"></span>
                     </div>
                 </fieldset>
                 <button class="login__boton">Entrar</button>
@@ -56,11 +58,13 @@
                         <legend class="contacto__legend">Hable con nosotros</legend>
                         <div class="contacto__nombre">
                             <label for="input__nombre">Nombre</label>
-                            <input class="contacto__nombre__input" id="input__nombre" type="text">
+                            <input class="contacto__nombre__input campo-validar" id="input__nombre" type="text" required data-tipo="nombre" pattern="[\s\S]{0,40}">
+                            <span class="contacto__mensaje__error"></span>
                         </div>
                         <div class="contacto__mensaje">
                             <label for="text__area">Escribe tu mensaje</label>
-                            <textarea name="" class="contacto__textarea" id="text__area" cols="0" rows="5"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <textarea name="" class="contacto__textarea campo-validar" id="text__area" cols="0" rows="5" required data-tipo="mensaje" pattern="[\s\S]{2,120}"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <span class="contacto__mensaje__error"></span>
                         </div>
                     </fieldset>
                     <button class="contacto__boton">Enviar mensaje</button>
@@ -77,5 +81,7 @@
         </section>
     </footer>
     </main>
+    <script src="./assets/js/validaciones.js"></script>
+    <script src="./assets/js/validacion-login.js"></script>
 </body>
 </html>

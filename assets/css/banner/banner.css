@@ -32,4 +32,6 @@
     background: #2A7AE4;
     border: none;
     color: #FFFFFF;
+    cursor: pointer;
+    text-decoration:none;
 }

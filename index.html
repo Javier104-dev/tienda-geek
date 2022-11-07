@@ -32,7 +32,7 @@
             <div class="banner__contenido">
                 <h1 class="banner__contenido__titulo">Febrero Promocional</h1>
                 <h2 class="banner__contenido__subtitulo">Productos seleccionados con 33% de descuento</h2>
-                <button class="banner__contenido__boton">Ver Consolas</button>
+                <a href="#categoria-consolas" class="banner__contenido__boton">Ver Consolas</a>
             </div>
         </section>
         <section class="categorias container">
@@ -82,7 +82,7 @@
             </section>
             <section class="categoria-grupo">
                 <div class="categorias__titulo">
-                    <h1 class="categorias__titulo__nombre">Consolas</h1>
+                    <h1 class="categorias__titulo__nombre" id="categoria-consolas">Consolas</h1>
                     <span><a class="categorias__ver_todo" href="#">Ver todo</a></span>
                 </div>
                 <div class="categorias__produtos">
@@ -185,11 +185,13 @@
                         <legend class="contacto__legend">Hable con nosotros</legend>
                         <div class="contacto__nombre">
                             <label for="input__nombre">Nombre</label>
-                            <input class="contacto__nombre__input" id="input__nombre" type="text">
+                            <input class="contacto__nombre__input campo-validar" id="input__nombre" type="text" required data-tipo="nombre" pattern="[\s\S]{0,40}">
+                            <span class="contacto__mensaje__error"></span>
                         </div>
                         <div class="contacto__mensaje">
                             <label for="text__area">Escribe tu mensaje</label>
-                            <textarea name="" class="contacto__textarea" id="text__area" cols="0" rows="5"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <textarea name="" class="contacto__textarea campo-validar" id="text__area" cols="0" rows="5" required data-tipo="mensaje" pattern="[\s\S]{2,120}"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <span class="contacto__mensaje__error"></span>
                         </div>
                     </fieldset>
                     <button class="contacto__boton">Enviar mensaje</button>
@@ -206,5 +208,6 @@
         </section>
     </footer>
     </main>
+    <script src="./assets/js/validaciones.js"></script>
 </body>
 </html>

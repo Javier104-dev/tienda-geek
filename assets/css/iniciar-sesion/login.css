@@ -46,3 +46,15 @@
     font-weight: 600;
     box-sizing: border-box;
 }
+
+.input-error{
+    border: 1px solid red;
+}
+
+.mensaje-error{
+    color: red;
+}
+
+.mensaje-error{
+    margin-top: 0.5rem;
+}
