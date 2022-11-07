@@ -13,7 +13,6 @@ const validacionesLogin = (input) => {
     if(input.validity.valid){
         input.classList.remove("input-error");
         input.parentElement.querySelector(".mensaje-error").innerHTML = "";
-        
     }else{
         input.classList.add("input-error");
         input.parentElement.querySelector(".mensaje-error").innerHTML =
@@ -43,3 +42,19 @@ const mostrarMensajeDeError = (datas, input) => {
     });
     return mensaje;
 };
+
+const boton = document.querySelector("[data-boton-login]");
+const login = document.querySelector("#login__correo");
+const contraseñaInput = document.querySelector("#login__contraseña");
+
+const correo = "login1@hotmail.com";
+const contraseña = "Login123";
+
+boton.addEventListener("click", (evento) =>{
+    evento.preventDefault();
+    if((login.value === "login1@hotmail.com") && (contraseñaInput.value === "Login123")){
+        window.location.href= "./todos-los-productos.html";
+    }else{
+        boton.parentElement.querySelector(".mensaje-error-boton").textContent = "Correo o contraseña incorrecta"
+    }
+})
