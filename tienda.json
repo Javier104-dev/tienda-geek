@@ -1,0 +1,12 @@
+{
+  "producto": [
+    {
+      "imagen": "iok.com",
+      "categoria": "consola",
+      "nombre": "Milo",
+      "precio": "$60.00",
+      "descripcion": "juego barato",
+      "id": "d7c5ddf6-7997-4cb3-b7e3-6706cec16f22"
+    }
+  ]
+}

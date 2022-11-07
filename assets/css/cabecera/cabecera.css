@@ -12,10 +12,11 @@
 }
 
 .cabecera__boton{
-    width: 182px;
-    height: 51px;
+    padding: 1rem 4rem;
     border: 1px solid #2A7AE4;
     color: #2A7AE4;
     box-sizing: border-box;
     background: none;
+    cursor: pointer;
+    text-decoration: none;
 }
