@@ -32,7 +32,7 @@
                     <h1 class="todos__los__productors__titulo">Todos los productos</h1>
                     <button class="agregar__producto__boton">Agregar Producto</button>
                 </div>
-                <div class="categorias__produtos">
+                <div class="categorias__produtos" data-todos>
                     <div class="categorias__produto">
                         <div class="categorias__contenedor__foto">
                             <div class="categoria__iconos__editar">
@@ -276,11 +276,13 @@
                         <legend class="contacto__legend">Hable con nosotros</legend>
                         <div class="contacto__nombre">
                             <label for="input__nombre">Nombre</label>
-                            <input class="contacto__nombre__input" id="input__nombre" type="text">
+                            <input class="contacto__nombre__input campo-validar" id="input__nombre" type="text" required data-tipo="nombre" pattern="[\s\S]{0,40}">
+                            <span class="contacto__mensaje__error"></span>
                         </div>
                         <div class="contacto__mensaje">
                             <label for="text__area">Escribe tu mensaje</label>
-                            <textarea name="" class="contacto__textarea" id="text__area" cols="0" rows="5"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <textarea name="" class="contacto__textarea campo-validar" id="text__area" cols="0" rows="5" required data-tipo="mensaje" pattern="[\s\S]{2,120}"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <span class="contacto__mensaje__error"></span>
                         </div>
                     </fieldset>
                     <button class="contacto__boton">Enviar mensaje</button>
@@ -297,6 +299,7 @@
         </section>
     </footer>
     </main>
-    <script src="./assets/js/validaciones.js"></script>
+    <script src="./js/validaciones.js"></script>
+    <script type="module" src="js/todos-los-productos/todos-los-productos-controllers.js"></script>
 </body>
 </html>
