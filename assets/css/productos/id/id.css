@@ -40,4 +40,10 @@
 
 .tacho{
     margin-right: 1rem;
+    cursor: pointer;
+}
+
+.editar{
+    text-decoration: none;
+    color: white;
 }

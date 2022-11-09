@@ -1,12 +1,28 @@
 {
   "producto": [
     {
-      "imagen": "assets/Imagenes/sta-war/capitan.jpg",
-      "categoria": "consola",
-      "nombre": "Milo",
-      "precio": "60.00",
-      "descripcion": "juego barato",
-      "id": "d7c5ddf6-7997-4cb3-b7e3-6706cec16f22"
+      "imagen": "",
+      "categoria": "ffffffffff",
+      "nombre": "ffffffffff",
+      "precio": "ffffffffff",
+      "descripcion": "ffffffffff",
+      "id": "6d287393-f3b9-438b-94fa-a12a173eff1f"
+    },
+    {
+      "imagen": "",
+      "categoria": "hhhhhhhhhhhhhh",
+      "nombre": "hhhhhhhhhhhhhh",
+      "precio": "hhhhhhhhhhhhhh",
+      "descripcion": "hhhhhhhhhhhhhh",
+      "id": "79fcb08f-7ab0-4f2b-b649-ad1f761554a4"
+    },
+    {
+      "imagen": "",
+      "categoria": "iiiiiiiiiiiiiiiiii",
+      "nombre": "iiiiiiiiiiiiiiiiii",
+      "precio": "iiiiiiiiiiiiiiiiii",
+      "descripcion": "iiiiiiiiiiiiiiiiii",
+      "id": "90bad3e2-4cb6-4bac-bd97-bc298d7b945e"
     }
   ]
 }

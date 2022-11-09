@@ -25,9 +25,22 @@ const crearProducto = (imagen, categoria, nombre, precio, descripcion) => {
     })
 };
 
+const eliminarProducto = (id) =>{
+    return fetch(`http://localhost:3000/producto/${id}`, { //agregamos el id al http para eliminar el producto
+        method: "DELETE", //no podemos body por que no estamos enviando informacion
+})
+};
+
+const detallesProducto = (id) =>{
+    //obtenemos informacion, no especificamos el metodo (GET)
+    return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) =>respuesta.json());
+}
+
 export const productosServices = {
     listaProductos,
     crearProducto,
+    eliminarProducto,
+    detallesProducto,
 };
 
 

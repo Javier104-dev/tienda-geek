@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Editar Productor - AluraGeek</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
+    <link rel="stylesheet" href="assets/css/nuevo-producto/nuevo-producto.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+</head>
+<body>
+    <header>
+        <section class="cabecera container">
+            <nav class="cabecera__navegacion">
+                <div class="cabecera__imagenes">
+                    <a href="#"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
+                    <img src="assets/Imagenes/Barra_de_busqueda.png" alt="Barra busqueda">
+                </div>
+                <button class="cabecera__boton__administrador">Menu administrador</button>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="nuevo-producto">
+            <form action="" class="nuevo-producto__contenido" data-form>
+                <legend class="nuevo-producto__legend">Editar Producto</legend>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__url" class="nuevo-producto__label">URL de imagen</label>
+                    <input accept="image/*" id="nuevo-producto__url" type="file" class="nuevo-producto__input" data-imagen>
+                </div>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__categoria" class="nuevo-producto__label">Categoria</label>
+                    <input id="nuevo-producto__categoria" type="text" class="nuevo-producto__input" data-categoria>
+                </div>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__nombre" class="nuevo-producto__label">Nombre del producto</label>
+                    <input id="nuevo-producto__nombre" type="text" class="nuevo-producto__input" data-nombre>
+                </div>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__precio" class="nuevo-producto__label">Precio del producto</label>
+                    <input id="nuevo-producto__precio" type="text" class="nuevo-producto__input" data-precio>
+                </div>
+                <div class="nuevo__form">
+                    <label for="nuevo-producto__area" class="nuevo-producto__label">Descripcion del producto</label>
+                    <textarea name="" id="nuevo-producto__area" class="nuevo-producto__input" data-descripcion></textarea>
+                </div>
+                <button class="nuevo-producto__boton">Aceptar cambios</button>
+            </form>
+        </section>
+        <section class="contacto container">
+            <div class="contacto__seccion">
+                <a href=""><img src="assets/Imagenes/Logo.png" alt="Logo Tienda"></a>
+                <ul class="contacto__items">
+                    <li>Quienes somos</li>
+                    <li>Politicas de privacidad</li>
+                    <li>Programa de fidelidad</li>
+                    <li>Nuestras Tiendas</li>
+                    <li>Quiero ser franquiciado</li>
+                    <li>Anúncie aquí</li>
+                </ul>
+                <form action="" class="contacto__area">
+                    <fieldset class="contacto__area__inputs">
+                        <legend class="contacto__legend">Hable con nosotros</legend>
+                        <div class="contacto__nombre">
+                            <label for="input__nombre">Nombre</label>
+                            <input class="contacto__nombre__input campo-validar" id="input__nombre" type="text" required data-tipo="nombre" pattern="[\s\S]{0,40}">
+                            <span class="contacto__mensaje__error"></span>
+                        </div>
+                        <div class="contacto__mensaje">
+                            <label for="text__area">Escribe tu mensaje</label>
+                            <textarea name="" class="contacto__textarea campo-validar" id="text__area" cols="0" rows="5" required data-tipo="mensaje" pattern="[\s\S]{2,120}"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <span class="contacto__mensaje__error"></span>
+                        </div>
+                    </fieldset>
+                    <button class="contacto__boton">Enviar mensaje</button>
+                </form>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <section class="footer">
+            <div class="footer__contenido">
+                <span>Desarrollado por Javier Villca</span>
+                <span>2022</span>
+            </div>
+        </section>
+    </footer>
+    </main>
+    <script src="js/validaciones.js"></script>
+    <script type="module" src="js/editar-producto/editar-cliente.js"></script>
+</body>
+</html>
