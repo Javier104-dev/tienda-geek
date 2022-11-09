@@ -28,27 +28,27 @@
     </header>
     <main>
         <section class="nuevo-producto">
-            <form action="" class="nuevo-producto__contenido">
+            <form action="" class="nuevo-producto__contenido" data-form>
                 <legend class="nuevo-producto__legend">Agregar nuevo producto</legend>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__url" class="nuevo-producto__label">URL de imagen</label>
-                    <input id="nuevo-producto__url" type="text" class="nuevo-producto__input">
+                    <input accept="image/*" id="nuevo-producto__url" type="file" class="nuevo-producto__input" data-imagen>
                 </div>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__categoria" class="nuevo-producto__label">Categoria</label>
-                    <input id="nuevo-producto__categoria" type="text" class="nuevo-producto__input">
+                    <input id="nuevo-producto__categoria" type="text" class="nuevo-producto__input" data-categoria>
                 </div>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__nombre" class="nuevo-producto__label">Nombre del producto</label>
-                    <input id="nuevo-producto__nombre" type="text" class="nuevo-producto__input">
+                    <input id="nuevo-producto__nombre" type="text" class="nuevo-producto__input" data-nombre>
                 </div>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__precio" class="nuevo-producto__label">Precio del producto</label>
-                    <input id="nuevo-producto__precio" type="text" class="nuevo-producto__input">
+                    <input id="nuevo-producto__precio" type="text" class="nuevo-producto__input" data-precio>
                 </div>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__area" class="nuevo-producto__label">Descripcion del producto</label>
-                    <textarea name="" id="nuevo-producto__area" class="nuevo-producto__input"></textarea>
+                    <textarea name="" id="nuevo-producto__area" class="nuevo-producto__input" data-descripcion></textarea>
                 </div>
                 <button class="nuevo-producto__boton">Agregar producto</button>
             </form>
@@ -69,11 +69,13 @@
                         <legend class="contacto__legend">Hable con nosotros</legend>
                         <div class="contacto__nombre">
                             <label for="input__nombre">Nombre</label>
-                            <input class="contacto__nombre__input" id="input__nombre" type="text">
+                            <input class="contacto__nombre__input campo-validar" id="input__nombre" type="text" required data-tipo="nombre" pattern="[\s\S]{0,40}">
+                            <span class="contacto__mensaje__error"></span>
                         </div>
                         <div class="contacto__mensaje">
                             <label for="text__area">Escribe tu mensaje</label>
-                            <textarea name="" class="contacto__textarea" id="text__area" cols="0" rows="5"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <textarea name="" class="contacto__textarea campo-validar" id="text__area" cols="0" rows="5" required data-tipo="mensaje" pattern="[\s\S]{2,120}"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <span class="contacto__mensaje__error"></span>
                         </div>
                     </fieldset>
                     <button class="contacto__boton">Enviar mensaje</button>
@@ -90,5 +92,8 @@
         </section>
     </footer>
     </main>
+    <script src="js/validaciones.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="module" src="js/agregar-producto/registro-producto.js"></script>
 </body>
 </html>

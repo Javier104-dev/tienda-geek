@@ -1,6 +1,7 @@
 .producto__id{
     font-weight: 500;
     color: #464646;
+    width: 215px; /*para que el span tenga salto de linea, pongo el ancho de la foto*/
 }
 
 .agregar__producto__boton{
