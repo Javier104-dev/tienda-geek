@@ -1,20 +1,20 @@
 {
   "producto": [
     {
-      "imagen": "",
-      "categoria": "hhhhhhhhhhhhhheditao",
-      "nombre": "hhhhhhhhhhhhhheditao",
-      "precio": "hhhhhhhhhhhhhheditao",
-      "descripcion": "hhhhhhhhhhhhhheditao",
-      "id": "79fcb08f-7ab0-4f2b-b649-ad1f761554a4"
+      "imagen": "C:\\fakepath\\829.jpg",
+      "categoria": "asd",
+      "nombre": "asd",
+      "precio": "asd",
+      "descripcion": "asd",
+      "id": "6e19f74f-a4fe-4fa9-948b-e505bd9f4e29"
     },
     {
       "imagen": "",
-      "categoria": "iasiiasd",
-      "nombre": "gdfgdfg",
-      "precio": "60",
-      "descripcion": "gdfhgkfoph´kfgojhkgopjg",
-      "id": "d4307434-d7fe-4093-a01c-9076e9876007"
+      "categoria": "sad",
+      "nombre": "asd",
+      "precio": "asd",
+      "descripcion": "ads",
+      "id": "3c9a848f-7c50-4cfb-a6d0-4fc414eb48bf"
     }
   ]
 }

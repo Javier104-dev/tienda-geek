@@ -9,7 +9,7 @@ const obtenerInformacion = async () =>{ //async
     if (id === null){
         console.log("crear pagian error")
     }
-
+    
     const imagen = document.querySelector("[data-imagen]");
     const categoria = document.querySelector("[data-categoria]");
     const nombre = document.querySelector("[data-nombre]");

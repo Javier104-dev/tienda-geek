@@ -4,6 +4,7 @@ const formulario = document.querySelector("[data-form]");
 
 formulario.addEventListener("submit",(evento) => {
     evento.preventDefault();
+
     const imagen = document.querySelector("[data-imagen]").value;
     const categoria = document.querySelector("[data-categoria]").value;
     const nombre = document.querySelector("[data-nombre]").value;
@@ -16,3 +17,5 @@ formulario.addEventListener("submit",(evento) => {
 });
 
 
+
+//document.getElementById('submit').files.item(0).getAsDataURL();
