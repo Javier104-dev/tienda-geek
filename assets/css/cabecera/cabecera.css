@@ -20,3 +20,23 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+.cabecera__buscador{
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    padding: 1rem 2rem;
+    border: none;
+    background: #F5F5F5;
+    border-radius: 30px;
+}
+
+.cabecera__buscador__lupa{
+    position: relative;
+    transform: translateX(325px);
+}
+
+.cabecera__buscador__contenedor{
+    display: flex;
+    align-items: center;
+}

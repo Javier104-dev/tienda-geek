@@ -17,10 +17,16 @@
 <body>
     <header>
         <section class="cabecera container">
-            <div class="cabecera__imagenes">
-                <a href="#"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
-                <img src="assets/Imagenes/Barra_de_busqueda.png" alt="Barra busqueda">
-            </div>
+            <nav class="cabecera__navegacion">
+                <div class="cabecera__imagenes">
+                    <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
+                    <div class="cabecera__buscador__contenedor">
+                        <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?">
+                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador">
+                    </div>
+                </div>
+                <a href="./inicio-sesion.html" class="cabecera__boton">Login</a>
+            </nav>
         </section>
     </header>
     <main>
@@ -45,7 +51,7 @@
         </section>
         <section class="contacto container">
             <div class="contacto__seccion">
-                <a href=""><img src="assets/Imagenes/Logo.png" alt="Logo Tienda"></a>
+                <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
                 <ul class="contacto__items">
                     <li>Quienes somos</li>
                     <li>Politicas de privacidad</li>
@@ -82,7 +88,7 @@
         </section>
     </footer>
     </main>
-    <script src="./assets/js/validaciones.js"></script>
-    <script src="./assets/js/validacion-login.js"></script>
+    <script src="js/validaciones.js"></script>
+    <script src="./js/validacion-login.js"></script>
 </body>
 </html>

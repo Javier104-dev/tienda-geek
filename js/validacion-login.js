@@ -52,8 +52,12 @@ const contraseña = "Login123";
 
 boton.addEventListener("click", (evento) =>{
     evento.preventDefault();
-    if((login.value === "login1@hotmail.com") && (contraseñaInput.value === "Login123")){
+    if(login.value.trim() === "" && contraseñaInput.value.trim() === ""){
+        boton.parentElement.querySelector(".mensaje-error-boton").textContent = "Ingresa tu correo y contraseña";
+
+    }else if((login.value === "login1@hotmail.com") && (contraseñaInput.value === "Login123")){
         window.location.href= "./todos-los-productos.html";
+
     }else{
         boton.parentElement.querySelector(".mensaje-error-boton").textContent = "Correo o contraseña incorrecta"
     }
