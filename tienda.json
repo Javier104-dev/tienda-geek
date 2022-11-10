@@ -2,27 +2,11 @@
   "producto": [
     {
       "imagen": "",
-      "categoria": "ffffffffff",
-      "nombre": "ffffffffff",
-      "precio": "ffffffffff",
-      "descripcion": "ffffffffff",
-      "id": "6d287393-f3b9-438b-94fa-a12a173eff1f"
-    },
-    {
-      "imagen": "",
-      "categoria": "hhhhhhhhhhhhhh",
-      "nombre": "hhhhhhhhhhhhhh",
-      "precio": "hhhhhhhhhhhhhh",
-      "descripcion": "hhhhhhhhhhhhhh",
+      "categoria": "hhhhhhhhhhhhhheditao",
+      "nombre": "hhhhhhhhhhhhhheditao",
+      "precio": "hhhhhhhhhhhhhheditao",
+      "descripcion": "hhhhhhhhhhhhhheditao",
       "id": "79fcb08f-7ab0-4f2b-b649-ad1f761554a4"
-    },
-    {
-      "imagen": "",
-      "categoria": "iiiiiiiiiiiiiiiiii",
-      "nombre": "iiiiiiiiiiiiiiiiii",
-      "precio": "iiiiiiiiiiiiiiiiii",
-      "descripcion": "iiiiiiiiiiiiiiiiii",
-      "id": "90bad3e2-4cb6-4bac-bd97-bc298d7b945e"
     }
   ]
 }
