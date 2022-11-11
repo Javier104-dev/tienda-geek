@@ -9,12 +9,20 @@
       "id": "6e19f74f-a4fe-4fa9-948b-e505bd9f4e29"
     },
     {
-      "imagen": "",
-      "categoria": "sad",
-      "nombre": "asd",
+      "imagen": "cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png",
+      "categoria": "asda",
+      "nombre": "dasd",
+      "precio": "asdas",
+      "descripcion": "dasd",
+      "id": "48c98ce3-1a23-418e-9e2c-959c396873c6"
+    },
+    {
+      "imagen": "1660447354211.jpg",
+      "categoria": "asd",
+      "nombre": "asdas",
       "precio": "asd",
-      "descripcion": "ads",
-      "id": "3c9a848f-7c50-4cfb-a6d0-4fc414eb48bf"
+      "descripcion": "asda",
+      "id": "533d0cbe-4dab-40fb-86e0-2d20e1300f36"
     }
   ]
 }

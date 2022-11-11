@@ -11,7 +11,7 @@ const crearDiv = (nombre, precio, imagen, id) =>{
                 <i class="fa-solid fa-trash tacho" data-borrar id="${id}"></i>
                 <a href="editar-producto.html?id=${id}"><i class="fa-sharp fa-solid fa-pen editar" data-editar></i></a>
             </div>
-            <img class="foto__producto" src=${imagen} alt="taza star-war">
+            <img class="foto__producto" src="assets/Imagenes/${imagen}" alt="taza star-war">
         </div>
         <span class="categorias_producto__nombre">${nombre}</span>
         <span class="categorias_producto__precio">$ ${precio}</span>
