@@ -7,7 +7,7 @@ formulario.addEventListener("submit",(evento) => {
     //document.getElementById("file-id").files[0].name; 
     //document.querySelector("[data-imagen]").value;
     // obtener nombre const imagen = document.querySelector("[data-imagen]").files[0].name;
-    const imagen = document.querySelector("[data-imagen]").files[0].name; //concatenamos el nombre
+    const imagen = document.querySelector("[data-imagen]").value; //concatenamos el nombre
     const categoria = document.querySelector("[data-categoria]").value;
     const nombre = document.querySelector("[data-nombre]").value;
     const precio = document.querySelector("[data-precio]").value;

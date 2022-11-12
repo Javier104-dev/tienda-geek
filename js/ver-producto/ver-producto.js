@@ -6,7 +6,7 @@ const crearDivProducto = (imagen, nombre, precio, descripcion) => {
 
     const contenidoDiv =
     `
-        <img class="producto__foto" src="assets/Imagenes/${imagen}" alt="foto producto">
+        <img class="producto__foto" src="${imagen}" alt="foto producto">
         <div class="producto__contenido__detalles">
             <h1 class="producto__contenido__titulo">${nombre}</h1>
             <span class="producto__contenido__precio">$ ${precio}</span>

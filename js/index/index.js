@@ -8,7 +8,7 @@ const div = (imagen, nombre, precio, id) =>{
 
     const contenidoDiv = 
     `
-    <img class="foto__producto" src="assets/Imagenes/${imagen}" alt="taza star-war">
+    <img class="foto__producto" src="${imagen}" alt="taza star-war">
     <span class="categorias_producto__nombre">${nombre}</span>
     <span class="categorias_producto__precio">$ ${precio}</span>
     <span><a class="categorias_producto__ver" href="ver-producto.html?id=${id}">Ver Producto</a></span>
