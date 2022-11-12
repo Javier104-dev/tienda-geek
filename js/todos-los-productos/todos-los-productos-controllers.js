@@ -13,7 +13,7 @@ const crearDiv = (nombre, precio, imagen, id) =>{
             </div>
             <img class="foto__producto" src="assets/Imagenes/${imagen}" alt="taza star-war">
         </div>
-        <span class="categorias_producto__nombre">${nombre}</span>
+        <a href="ver-producto?id=${id}"><span class="categorias_producto__nombre">${nombre}</span></a>
         <span class="categorias_producto__precio">$ ${precio}</span>
         <span class="producto__id">ID: ${id}</span>
 

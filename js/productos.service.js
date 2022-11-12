@@ -31,7 +31,7 @@ const eliminarProducto = (id) =>{
 })
 };
 
-const detallesProducto = (id) =>{
+const verDatosProducto = (id) =>{
     //obtenemos informacion, no especificamos el metodo (GET)
     return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) =>respuesta.json());
 }
@@ -46,12 +46,17 @@ const actualizarProducto = (imagen, categoria, nombre, precio, descripcion, id) 
     }).then((respuesta) =>respuesta).catch((error) => console.log(error));
 };
 
+const verProducto = (id) => {
+    return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) =>respuesta.json());
+}
+
 export const productosServices = {
     listaProductos,
     crearProducto,
     eliminarProducto,
-    detallesProducto,
+    verDatosProducto,
     actualizarProducto,
+    verProducto,
 };
 
 

@@ -1,28 +1,28 @@
 {
   "producto": [
     {
-      "imagen": "C:\\fakepath\\829.jpg",
-      "categoria": "asd",
-      "nombre": "asd",
-      "precio": "asd",
-      "descripcion": "asd",
-      "id": "6e19f74f-a4fe-4fa9-948b-e505bd9f4e29"
+      "imagen": "cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png",
+      "categoria": "asdas",
+      "nombre": "dasd",
+      "precio": "asdasd",
+      "descripcion": "asdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsa",
+      "id": "f6f30b25-e692-4221-9bae-2d877130f054"
     },
     {
       "imagen": "cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png",
-      "categoria": "asda",
-      "nombre": "dasd",
+      "categoria": "asd",
+      "nombre": "asd",
       "precio": "asdas",
       "descripcion": "dasd",
-      "id": "48c98ce3-1a23-418e-9e2c-959c396873c6"
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cba1ab6"
     },
     {
-      "imagen": "1660447354211.jpg",
+      "imagen": "cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png",
       "categoria": "asd",
-      "nombre": "asdas",
+      "nombre": "asd",
       "precio": "asd",
       "descripcion": "asda",
-      "id": "533d0cbe-4dab-40fb-86e0-2d20e1300f36"
+      "id": "6380d5d9-7dd0-477f-b850-9b2c088ea99e"
     }
   ]
 }

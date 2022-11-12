@@ -17,8 +17,9 @@ const obtenerInformacion = async () =>{ //async
     const descripcion = document.querySelector("[data-descripcion]");
 
     try{
-        const producto = await productosServices.detallesProducto(id);
+        const producto = await productosServices.verDatosProducto(id);
         if((producto.categoria && producto.nombre) && (producto.precio && producto.descripcion)){
+
             categoria.value = producto.categoria;
             nombre.value = producto.nombre;
             precio.value = producto.precio;//forma mas reciente de esperar respuestas de promesas
@@ -48,7 +49,7 @@ formulario.addEventListener("submit", (evento)=>{
     const url = new URL(window.location);
     const id = url.searchParams.get("id");//con get buscamos en searchParams y obtenemos el id
 
-    const imagen = document.querySelector("[data-imagen]").value;
+    const imagen = document.querySelector("[data-imagen]").files[0].name;
     const categoria = document.querySelector("[data-categoria]").value;
     const nombre = document.querySelector("[data-nombre]").value;
     const precio = document.querySelector("[data-precio]").value;
