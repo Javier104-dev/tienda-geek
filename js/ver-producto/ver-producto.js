@@ -19,21 +19,24 @@ const crearDivProducto = (imagen, nombre, precio, descripcion) => {
 
 const contenedorSection = document.querySelector("[data-producto-section]");
 
-const exponerProducto = () =>{
+const exponerProducto = async () =>{
     const url = new URL(window.location);
     const id = url.searchParams.get("id");
-    console.log(id)
 
-    productosServices.verProducto(id).then((producto)=>{
+    if (id === null){
+        console.log("crear pagian error")
+    };
 
-        const url = new URL(window.location);
-        const id = url.searchParams.get("id");//con get buscamos en searchParams y obtenemos el id
-    
-        const nuevoDiv = crearDivProducto(producto.imagen, producto.nombre, producto.precio, producto.descripcion);
-        contenedorSection.appendChild(nuevoDiv);
-        
-    }).catch((error) => alert("Ocurrio un error"));
-    
-}
+    try{
+        const producto = await productosServices.verProducto(id);
+        if(producto.imagen && producto.nombre && producto.precio && producto.descripcion){
+            const nuevoDiv = crearDivProducto(producto.imagen, producto.nombre, producto.precio, producto.descripcion);
+            contenedorSection.appendChild(nuevoDiv);
+        }else{
+            throw new Error();
+        }
+
+    }catch(error) {alert("Ocurrio un error")};
+};
 
 exponerProducto();
