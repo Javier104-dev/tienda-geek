@@ -1,28 +1,52 @@
 {
   "producto": [
     {
-      "imagen": "cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png",
-      "categoria": "asdas",
-      "nombre": "dasd",
-      "precio": "asdasd",
-      "descripcion": "asdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsaasdasdsa",
+      "imagen": "taza.jpg",
+      "categoria": "starwars",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
       "id": "f6f30b25-e692-4221-9bae-2d877130f054"
     },
     {
-      "imagen": "cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png",
-      "categoria": "asd",
-      "nombre": "asd",
-      "precio": "asdas",
-      "descripcion": "dasd",
+      "imagen": "lego.jpg",
+      "categoria": "starwars",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
       "id": "ff81c462-74d2-4cf5-bf37-8b077cba1ab6"
     },
     {
-      "imagen": "cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png",
-      "categoria": "asd",
-      "nombre": "asd",
-      "precio": "asd",
-      "descripcion": "asda",
+      "imagen": "yoda.jpg",
+      "categoria": "starwars",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
       "id": "6380d5d9-7dd0-477f-b850-9b2c088ea99e"
+    },
+    {
+      "imagen": "capitan.jpg",
+      "categoria": "starwars",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cba1ab6"
+    },
+    {
+      "imagen": "yoda bb.jpg",
+      "categoria": "starwars",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cba1ab6"
+    },
+    {
+      "imagen": "sith.jpg",
+      "categoria": "starwars",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cba1ab6"
     }
   ]
 }
