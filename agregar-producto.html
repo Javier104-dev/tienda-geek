@@ -34,23 +34,23 @@
                 <legend class="nuevo-producto__legend">Agregar nuevo producto</legend>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__url" class="nuevo-producto__label">URL de imagen</label>
-                    <input accept="image/*" id="nuevo-producto__url" type="url" class="nuevo-producto__input" data-imagen>
+                    <input accept="image/*" id="nuevo-producto__url" type="url" class="nuevo-producto__input"  placeholder="Ingrese la URL de la imagen" data-imagen required>
                 </div>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__categoria" class="nuevo-producto__label">Categoria</label>
-                    <input id="nuevo-producto__categoria" type="text" class="nuevo-producto__input" data-categoria>
+                    <input id="nuevo-producto__categoria" type="text" class="nuevo-producto__input" data-categoria required>
                 </div>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__nombre" class="nuevo-producto__label">Nombre del producto</label>
-                    <input id="nuevo-producto__nombre" type="text" class="nuevo-producto__input" data-nombre>
+                    <input id="nuevo-producto__nombre" type="text" class="nuevo-producto__input" data-nombre required>
                 </div>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__precio" class="nuevo-producto__label">Precio del producto</label>
-                    <input id="nuevo-producto__precio" type="text" class="nuevo-producto__input" data-precio>
+                    <input id="nuevo-producto__precio" type="text" class="nuevo-producto__input" data-precio required>
                 </div>
                 <div class="nuevo__form">
                     <label for="nuevo-producto__area" class="nuevo-producto__label">Descripcion del producto</label>
-                    <textarea name="" id="nuevo-producto__area" rows="10" class="nuevo-producto__input" data-descripcion></textarea>
+                    <textarea name="" id="nuevo-producto__area" rows="10" class="nuevo-producto__input" data-descripcion required></textarea>
                 </div>
                 <button class="nuevo-producto__boton">Agregar producto</button>
             </form>
