@@ -6,7 +6,7 @@
       "nombre": "Produxto XYZ",
       "precio": "60.00",
       "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": "f6f30b25-e692-4221-9bae-2d877130f054"
+      "id": "f6f30b25-e692-4221-9bae-2d877136f054"
     },
     {
       "imagen": "lego.jpg",
@@ -14,7 +14,7 @@
       "nombre": "Produxto XYZ",
       "precio": "60.00",
       "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": "ff81c462-74d2-4cf5-bf37-8b077cba1ab6"
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cba4ab6"
     },
     {
       "imagen": "yoda.jpg",
@@ -22,7 +22,7 @@
       "nombre": "Produxto XYZ",
       "precio": "60.00",
       "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": "6380d5d9-7dd0-477f-b850-9b2c088ea99e"
+      "id": "6380d5d9-7dd0-477f-b850-9b2c088ea98e"
     },
     {
       "imagen": "capitan.jpg",
@@ -30,7 +30,7 @@
       "nombre": "Produxto XYZ",
       "precio": "60.00",
       "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": "ff81c462-74d2-4cf5-bf37-8b077cba1ab6"
+      "id": "ff81c462-74d2-4cf5-b437-8b077cba1ab6"
     },
     {
       "imagen": "yoda bb.jpg",
@@ -38,7 +38,7 @@
       "nombre": "Produxto XYZ",
       "precio": "60.00",
       "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": "ff81c462-74d2-4cf5-bf37-8b077cba1ab6"
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cka1ab6"
     },
     {
       "imagen": "sith.jpg",
@@ -46,7 +46,111 @@
       "nombre": "Produxto XYZ",
       "precio": "60.00",
       "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
-      "id": "ff81c462-74d2-4cf5-bf37-8b077cba1ab6"
+      "id": "ff81c462-74d2-4cf5-bf37-8b0773ba1ab6"
+    },
+    {
+      "imagen": "consola1.jpg",
+      "categoria": "consola",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "f6f30b25-e692-4221-9bae-2d877139f054"
+    },
+    {
+      "imagen": "consola2.jpg",
+      "categoria": "consola",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cbf4ab6"
+    },
+    {
+      "imagen": "consola3.jpg",
+      "categoria": "consola",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "6380d5d9-7dd0-477f-b850-9b2c898ea99e"
+    },
+    {
+      "imagen": "consola4.jpg",
+      "categoria": "consola",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cb09ab6"
+    },
+    {
+      "imagen": "consola5.jpg",
+      "categoria": "consola",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cba1436"
+    },
+    {
+      "imagen": "consola6.jpg",
+      "categoria": "consola",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8b077cba79b6"
+    },
+    {
+      "imagen": "diversos1.jpg",
+      "categoria": "diversos",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "f6f30b25-e692-4221-9bae-2d8771324054"
+    },
+    {
+      "imagen": "diversos2.jpg",
+      "categoria": "diversos",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8h677cba1ab6"
+    },
+    {
+      "imagen": "diversos3.jpg",
+      "categoria": "diversos",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "6380d5d9-7dd0-477f-b850-9b2ch688ea99e"
+    },
+    {
+      "imagen": "diversos4.jpg",
+      "categoria": "diversos",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8b077c031ab6"
+    },
+    {
+      "imagen": "diversos5.jpg",
+      "categoria": "diversos",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-4cf5-bf37-8b07736a1ab6"
+    },
+    {
+      "imagen": "diversos6.jpg",
+      "categoria": "diversos",
+      "nombre": "Produxto XYZ",
+      "precio": "60.00",
+      "descripcion": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": "ff81c462-74d2-46h5-bf37-8b077cba1ab6"
+    },
+    {
+      "imagen": "cms_files_10224_1659462746Badge_Sharer_Alura_ChallengeOracleONE_2000x2000_V3.png",
+      "categoria": "starwars",
+      "nombre": "asd",
+      "precio": "asdas",
+      "descripcion": "dasdsad",
+      "id": "bfd270ca-d456-4135-a762-99b2j1ad2f71"
     }
   ]
 }

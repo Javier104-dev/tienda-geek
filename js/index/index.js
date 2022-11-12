@@ -1,5 +1,6 @@
 import { productosServices } from "../productos.service.js";
 
+
 const div = (imagen, nombre, precio, id) =>{
 
     const crearDiv = document.createElement("div");
@@ -14,13 +15,35 @@ const div = (imagen, nombre, precio, id) =>{
     `
     crearDiv.innerHTML = contenidoDiv;
     return crearDiv;
-}
+};
 
-const contenedorIndex = document.querySelector("[data-productos-index]");
+const contenedorWars = document.querySelector("[data-star-wars]");
+const contenedorConsola = document.querySelector("[data-consola]");
+const contenedorDiversos = document.querySelector("[data-diversos]");
+
 
 productosServices.productosIndex().then((productos)=>{
-    productos.forEach(({imagen, nombre, precio, id}) => {
-        const nuevoDiv = div(imagen, nombre, precio, id)
-        contenedorIndex.appendChild(nuevoDiv)
+    productos.forEach((producto) => {
+        if(producto.categoria === "starwars"){
+        const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
+        contenedorWars.appendChild(nuevoDiv)
+
+        }else if(producto.categoria === "consola"){
+            const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
+            contenedorConsola.appendChild(nuevoDiv)
+
+        }else if(producto.categoria === "diversos"){
+            const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
+            contenedorDiversos.appendChild(nuevoDiv)
+        }
     });
 })
+
+
+// productosServices.productosIndex().then((productos)=>{
+//     productos.forEach(({imagen, nombre, precio, id}) => {
+        
+//         const nuevoDiv = div(imagen, nombre, precio, id)
+//         contenedorWars.appendChild(nuevoDiv)
+//     });
+// })
