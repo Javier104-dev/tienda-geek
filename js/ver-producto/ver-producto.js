@@ -21,8 +21,10 @@ const contenedorSection = document.querySelector("[data-producto-section]");
 
 productosServices.verProducto("f6f30b25-e692-4221-9bae-2d877130f054").then((producto)=>{
 
+    const url = new URL(window.location);
+    const id = url.searchParams.get("id");//con get buscamos en searchParams y obtenemos el id
+
     const nuevoDiv = crearDivProducto(producto.imagen, producto.nombre, producto.precio, producto.descripcion);
     contenedorSection.appendChild(nuevoDiv);
- 
+    
 }).catch((error) => alert("Ocurrio un error"));
-

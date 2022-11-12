@@ -50,6 +50,8 @@ const verProducto = (id) => {
     return fetch(`http://localhost:3000/producto/${id}`).then((respuesta) =>respuesta.json());
 }
 
+const productosIndex = () => fetch("http://localhost:3000/producto").then(respuesta => respuesta.json());
+
 export const productosServices = {
     listaProductos,
     crearProducto,
@@ -57,6 +59,7 @@ export const productosServices = {
     verDatosProducto,
     actualizarProducto,
     verProducto,
+    productosIndex,
 };
 
 
