@@ -67,8 +67,8 @@
 
 .resultado_busqueda_titulo{
     display: none;
-    margin-top: 4rem;
-    margin-bottom: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
     font-size: 2rem;
     color: #464646;
     font-weight: 700;
