@@ -23,7 +23,7 @@
                     <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
                     <div class="cabecera__buscador__contenedor">
                         <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?">
-                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador">
+                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador" data-barra-busqueda>
                     </div>
                 </div>
                 <a href="./inicio-sesion.html" class="cabecera__boton">Login</a>
@@ -38,7 +38,7 @@
                 <a href="#categoria-consolas" class="banner__contenido__boton">Ver Consolas</a>
             </div>
         </section>
-        <section class="categorias container">
+        <section class="categorias container" data-productos>
             <section class="categoria-grupo">
                 <div class="categorias__titulo">
                     <h1 class="categorias__titulo__nombre">Star Wars</h1>
@@ -72,6 +72,17 @@
                    
                 </div>
             </section>
+        </section>
+        <section class="categorias container">
+            
+                <h1 class="resultado_busqueda_titulo">Resultado de busqueda</h1>
+
+                <div 
+                
+                    class="categorias__produtos" data-resultado-busqueda>
+
+                </div>
+            </div>
         </section>
         <section class="contacto container">
             <div class="contacto__seccion">
@@ -114,5 +125,6 @@
     </main>
     <script src="./js/validaciones.js"></script>
     <script type="module" src="./js/index/index.js"></script>
+    <script type="module" src="./js/index/barraBusqueda.js"></script>
 </body>
 </html>

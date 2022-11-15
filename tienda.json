@@ -151,6 +151,14 @@
       "precio": "asdas",
       "descripcion": "asfdgdfghfhfg",
       "id": "4301d4e3-e29d-442f-a711-5c86368472e4"
+    },
+    {
+      "imagen": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2020/11/nintendo-switch.jpeg?resize=1280%2C720&quality=80&ssl=1",
+      "categoria": "consola",
+      "nombre": "consola prueba",
+      "precio": "200",
+      "descripcion": "nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba nueva prueba ",
+      "id": "10b37b17-eb0e-44bb-a4cd-cfebbe5d2fa6"
     }
   ]
 }

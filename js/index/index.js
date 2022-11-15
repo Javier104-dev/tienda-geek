@@ -1,7 +1,7 @@
 import { productosServices } from "../productos.service.js";
 
 
-const div = (imagen, nombre, precio, id) =>{
+export  const div = (imagen, nombre, precio, id) =>{
 
     const crearDiv = document.createElement("div");
     crearDiv.classList.add("categorias__produto");
@@ -37,34 +37,4 @@ productosServices.productosIndex().then((productos)=>{
              contenedorDiversos.appendChild(nuevoDiv)
         }
     });
-})
-
-// ENCONTRAR ALGO EN EL JSON, AUNQUE SEA SU LETRA
-
-// productosServices.productosIndex().then((productos)=>{
-//     productos.forEach(({imagen, nombre, precio, id}) => {
-        
-//         const nuevoDiv = div(imagen, nombre, precio, id)
-//         contenedorWars.appendChild(nuevoDiv)
-//     });
-// })
-
-
-// const texto = "animal";
-
-// const valor = "i"
-
-// if(texto.includes(valor)){
-
-//     let encontrado = valor
-
-//     console.log(encontrado)
-// }
-
-// productosServices.productosIndex().then((productos)=>{
-//     productos.forEach((producto) => {
-//         if(producto.nombre.includes("XY")){
-//             console.log("precio")
-//         }
-//     });
-// })
+});
