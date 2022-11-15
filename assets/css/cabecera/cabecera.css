@@ -40,3 +40,7 @@
     display: flex;
     align-items: center;
 }
+
+.cabecera__buscador__lupa{
+    cursor: pointer;
+}

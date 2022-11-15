@@ -23,27 +23,48 @@ const contenedorDiversos = document.querySelector("[data-diversos]");
 
 
 productosServices.productosIndex().then((productos)=>{
-    productos.forEach((producto) => {
-        if(producto.categoria === "starwars"){
-        const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
-        contenedorWars.appendChild(nuevoDiv)
+     productos.forEach((producto) => {
+         if(producto.categoria === "starwars"){
+         const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
+         contenedorWars.appendChild(nuevoDiv)
 
-        }else if(producto.categoria === "consola"){
-            const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
-            contenedorConsola.appendChild(nuevoDiv)
+         }else if(producto.categoria === "consola"){
+             const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
+             contenedorConsola.appendChild(nuevoDiv)
 
         }else if(producto.categoria === "diversos"){
-            const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
-            contenedorDiversos.appendChild(nuevoDiv)
+             const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
+             contenedorDiversos.appendChild(nuevoDiv)
         }
     });
 })
 
+// ENCONTRAR ALGO EN EL JSON, AUNQUE SEA SU LETRA
 
 // productosServices.productosIndex().then((productos)=>{
 //     productos.forEach(({imagen, nombre, precio, id}) => {
         
 //         const nuevoDiv = div(imagen, nombre, precio, id)
 //         contenedorWars.appendChild(nuevoDiv)
+//     });
+// })
+
+
+// const texto = "animal";
+
+// const valor = "i"
+
+// if(texto.includes(valor)){
+
+//     let encontrado = valor
+
+//     console.log(encontrado)
+// }
+
+// productosServices.productosIndex().then((productos)=>{
+//     productos.forEach((producto) => {
+//         if(producto.nombre.includes("XY")){
+//             console.log("precio")
+//         }
 //     });
 // })
