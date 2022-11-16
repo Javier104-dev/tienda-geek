@@ -13,8 +13,8 @@ const crearDiv = (nombre, precio, imagen, id) =>{
             </div>
             <img class="foto__producto" src="${imagen}" alt="taza star-war">
         </div>
-        <span class="categorias_producto__nombre">${nombre}</span>
-        <span class="categorias_producto__precio">$ ${precio}</span>
+        <span class="categorias__producto__nombre">${nombre}</span>
+        <span class="categorias__producto__precio">$ ${precio}</span>
         <span class="producto__id">ID: ${id}</span>
 
     `

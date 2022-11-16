@@ -10,7 +10,7 @@
     margin-bottom: 1.5rem;
 }
 
-.similares_productos{
+.similares__productos{
     box-sizing: border-box;
     gap: 0.5rem;
     display: flex;

@@ -12,16 +12,16 @@
     object-fit: cover;
 }
 
-.categorias_producto__nombre{
+.categorias__producto__nombre{
     font-style: normal;
     font-weight: 500;
 }
 
-.categorias_producto__precio{
+.categorias__producto__precio{
     font-weight: 700;
 }
 
-.categorias_producto__ver{
+.categorias__producto__ver{
     font-weight: 700;
     color: #2A7AE4;
     font-style: normal;

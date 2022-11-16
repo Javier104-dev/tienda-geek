@@ -12,9 +12,9 @@ const div = (imagen, nombre, precio, id) =>{
     const contenidoDiv = 
     `
     <img class="foto__producto" src="${imagen}" alt="taza star-war">
-    <span class="categorias_producto__nombre">${nombre}</span>
-    <span class="categorias_producto__precio">$ ${precio}</span>
-    <span><a class="categorias_producto__ver" href="ver-producto.html?id=${id}">Ver Producto</a></span>
+    <span class="categorias__producto__nombre">${nombre}</span>
+    <span class="categorias__producto__precio">$ ${precio}</span>
+    <span><a class="categorias__producto__ver" href="ver-producto.html?id=${id}">Ver Producto</a></span>
     `
     crearDiv.innerHTML = contenidoDiv;
     return crearDiv;
@@ -27,7 +27,7 @@ botonBusqueda.addEventListener("click", ()=>{
     contenedor.innerHTML = "";
 
     funcionOcultarVer("[data-productos]", "none");
-    funcionOcultarVer(".section_busqueda", "block");
+    funcionOcultarVer(".section__busqueda", "block");
     
     productosServices.listaProductos().then((productos) => {
         productos.forEach(producto => {
@@ -51,11 +51,11 @@ const funcionOcultarVer = (divClass, tipoDisplay) => {
 };
 
 const tituloResultados = (texto) => {
-    document.querySelector(".resultado_busqueda_titulo").textContent = `Resultados de busqueda para "${texto}"`
+    document.querySelector(".section__busqueda__titulo").textContent = `Resultados de busqueda para "${texto}"`
 }
 
 const tituloResultadosVacios = (texto) => {
-    document.querySelector(".resultado_busqueda_titulo").textContent = texto;
+    document.querySelector(".section__busqueda__titulo").textContent = texto;
 }
 
 // ENCONTRAR ALGO EN EL JSON, AUNQUE SEA SU LETRA

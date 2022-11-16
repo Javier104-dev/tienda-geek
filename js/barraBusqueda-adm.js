@@ -15,8 +15,8 @@ const crearDiv = (nombre, precio, imagen, id) =>{
             </div>
             <img class="foto__producto" src="${imagen}" alt="taza star-war">
         </div>
-        <span class="categorias_producto__nombre">${nombre}</span>
-        <span class="categorias_producto__precio">$ ${precio}</span>
+        <span class="categorias__producto__nombre">${nombre}</span>
+        <span class="categorias__producto__precio">$ ${precio}</span>
         <span class="producto__id">ID: ${id}</span>
 
     `
@@ -36,7 +36,7 @@ botonBusqueda.addEventListener("click",()=>{
     const inputMinusculas = input.toLowerCase();
     contenedor.innerHTML = "";
 
-    funcionOcultarVer(".resultado_busqueda_titulo", "block");
+    funcionOcultarVer(".section__busqueda", "block");
     funcionOcultarVer("[data-productos-adm]", "none");
 
     productosServices.listaProductos().then((productos)=>{ 
@@ -61,9 +61,9 @@ const funcionOcultarVer = (divClass, tipoDisplay) => {
 };
 
 const tituloResultados = (texto) => {
-    document.querySelector(".resultado_busqueda_titulo").textContent = `Resultados de busqueda para "${texto}"`
+    document.querySelector(".section__busqueda__titulo").textContent = `Resultados de busqueda para "${texto}"`
 };
 
 const tituloResultadosVacios = (texto) => {
-    document.querySelector(".resultado_busqueda_titulo").textContent = texto;
+    document.querySelector(".section__busqueda__titulo").textContent = texto;
 };

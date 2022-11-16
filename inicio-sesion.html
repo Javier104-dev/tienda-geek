@@ -52,12 +52,12 @@
                     <legend class="login__legend">Iniciar Sesión</legend>
                     <div class="login__campos">
                         <label class="login__campo__titulo" for="login__correo">Escriba su correo electronido</label>
-                        <input class="login_input" id="login__correo" type="text" required data-tipo="correo" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$">
+                        <input class="login__input" id="login__correo" type="text" required data-tipo="correo" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$">
                         <span class="mensaje-error"></span>
                     </div>
                     <div class="login__campos">
                         <label class="login__campo__titulo" for="login__contraseña">Escriba su contraseña</label>
-                        <input class="login_input" id="login__contraseña" type="password" required data-tipo="contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" autocomplete="off" minlength="6" maxlength="12">
+                        <input class="login__input" id="login__contraseña" type="password" required data-tipo="contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" autocomplete="off" minlength="6" maxlength="12">
                         <span class="mensaje-error"></span>
                     </div>
                 </fieldset>
@@ -65,11 +65,11 @@
                 <button class="login__boton" data-boton-login>Entrar</button>
             </form>
         </section>
-        <section class="section_busqueda container">
-            <h1 class="resultado_busqueda_titulo"></h1>
+        <section class="section__busqueda container">
+            <h1 class="section__busqueda__titulo"></h1>
             <div 
             
-                class="similares_productos similares_productos_resultados" data-resultado-busqueda>
+                class="section__busqueda__productos" data-resultado-busqueda>
 
             </div>
         </section>

@@ -1,10 +1,10 @@
-.section_busqueda{
+.section__busqueda{
     display: none;
     background: #F5F5F5;
     padding-bottom: 5rem;
 }
 
-.resultado_busqueda_titulo{
+.section__busqueda__titulo{
     padding-top: 4rem;
     padding-bottom: 1rem;
     font-size: 2rem;
@@ -12,7 +12,7 @@
     font-weight: 700;
 }
 
-.similares_productos{
+.section__busqueda__productos{
     box-sizing: border-box;
     gap: 0.5rem;
     display: flex;
