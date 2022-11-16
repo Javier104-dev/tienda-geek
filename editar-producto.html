@@ -6,11 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Editar Productor - AluraGeek</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
     <link rel="stylesheet" href="assets/css/nuevo-producto/nuevo-producto.css">
+    <link rel="stylesheet" href="assets/css/productos/productos.css">
+    <link rel="stylesheet" href="assets/css/productos/id/id.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto.css">
     <link rel="stylesheet" href="assets/css/footer/footer.css">
 </head>
@@ -22,15 +25,14 @@
                     <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
                     <div class="cabecera__buscador__contenedor">
                         <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?">
-                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador">
+                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador" data-buscador-boton>
                     </div>
                 </div>
-                <a href="./inicio-sesion.html" class="cabecera__boton">Login</a>
             </nav>
         </section>
     </header>
     <main>
-        <section class="nuevo-producto">
+        <section class="nuevo-producto" data-productos-adm>
             <form action="" class="nuevo-producto__contenido" data-form>
                 <legend class="nuevo-producto__legend">Editar Producto</legend>
                 <div class="nuevo__form">
@@ -55,6 +57,14 @@
                 </div>
                 <button class="nuevo-producto__boton">Aceptar cambios</button>
             </form>
+        </section>
+        <section class="categorias container">
+            <h1 class="resultado_busqueda_titulo"></h1>
+            <div data-resultado-busqueda
+            
+                class="categorias__produtos" data-resultado-busqueda>
+
+            </div>
         </section>
         <section class="contacto container">
             <div class="contacto__seccion">
@@ -97,5 +107,6 @@
     </main>
     <script src="js/validaciones.js"></script>
     <script type="module" src="js/editar-producto/editar-producto.js"></script>
+    <script type="module" src="js/barraBusqueda-adm.js"></script>
 </body>
 </html>

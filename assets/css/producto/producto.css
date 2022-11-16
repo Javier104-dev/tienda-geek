@@ -87,3 +87,12 @@
     font-size: 2rem;
     margin-bottom: 1.5rem;
 }
+
+.resultado_busqueda_titulo{
+    display: none;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #464646;
+    font-weight: 700;
+}

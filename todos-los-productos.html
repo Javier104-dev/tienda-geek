@@ -24,14 +24,14 @@
                     <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
                     <div class="cabecera__buscador__contenedor">
                         <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?">
-                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador">
+                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador" data-buscador-boton>
                     </div>
                 </div>
             </nav>
         </section>
     </header>
     <main>
-        <section class="categorias container">
+        <section class="categorias container" data-productos-adm>
             <section class="categoria-grupo">
                 <div class="todos__los__productos">
                     <h1 class="todos__los__productors__titulo">Todos los productos</h1>
@@ -43,6 +43,14 @@
                     
                 </div>
             </section>
+        </section>
+        <section class="categorias container">
+            <h1 class="resultado_busqueda_titulo"></h1>
+            <div data-resultado-busqueda
+            
+                class="categorias__produtos" data-resultado-busqueda>
+
+            </div>
         </section>
         <section class="contacto container">
             <div class="contacto__seccion">
@@ -85,5 +93,6 @@
     </main>
     <script src="./js/validaciones.js"></script>
     <script type="module" src="js/todos-los-productos/todos-los-productos-controllers.js"></script>
+    <script type="module" src="js/barraBusqueda-adm.js"></script>
 </body>
 </html>

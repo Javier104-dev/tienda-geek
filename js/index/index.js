@@ -1,7 +1,7 @@
 import { productosServices } from "../productos.service.js";
 
 
-export  const div = (imagen, nombre, precio, id) =>{
+const div = (imagen, nombre, precio, id) =>{
 
     const crearDiv = document.createElement("div");
     crearDiv.classList.add("categorias__produto");

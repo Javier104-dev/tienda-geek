@@ -22,7 +22,7 @@
                     <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
                     <div class="cabecera__buscador__contenedor">
                         <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?">
-                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador">
+                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador" data-barra-busqueda>
                     </div>
                 </div>
                 <a href="./inicio-sesion.html" class="cabecera__boton">Login</a>
@@ -30,19 +30,29 @@
         </section>
     </header>
     <main>
-        <section class="producto container" data-producto-section>
-            <div 
-            
-            class="producto__contenido">
-
-            </div>
+        <section data-productos>
+            <section class="producto container" data-producto-section>
+                <div 
+                
+                class="producto__contenido">
+    
+                </div>
+            </section>
+            <section class="similares container">
+                <h1 class="similares__titulo">Productos similares</h1>
+                <div 
+                
+                class="categorias__produtos">
+                   
+                </div>
+            </section>
         </section>
-        <section class="similares container">
-            <h1 class="similares__titulo">Productos similares</h1>
+        <section class="categorias container">
+            <h1 class="resultado_busqueda_titulo"></h1>
             <div 
             
-            class="categorias__produtos">
-               
+                class="categorias__produtos" data-resultado-busqueda>
+
             </div>
         </section>
         <section class="contacto container">
@@ -83,6 +93,7 @@
     </footer>
     <script type="module" src="js/ver-producto/ver-producto.js"></script>
     <script type="module" src="js/ver-producto/productos-similares.js"></script>
+    <script type="module" src="js/barraBusqueda.js"></script>
     </main>
 </body>
 </html>

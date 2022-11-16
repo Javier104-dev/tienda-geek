@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
     <link rel="stylesheet" href="assets/css/iniciar-sesion/login.css">
+    <link rel="stylesheet" href="assets/css/productos/id/id.css">
+    <link rel="stylesheet" href="assets/css/productos/productos.css">
     <link rel="stylesheet" href="assets/css/contacto/contacto.css">
     <link rel="stylesheet" href="assets/css/footer/footer.css">
 </head>
@@ -22,14 +24,14 @@
                     <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
                     <div class="cabecera__buscador__contenedor">
                         <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?">
-                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador">
+                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador" data-barra-busqueda>
                     </div>
                 </div>
             </nav>
         </section>
     </header>
     <main>
-        <section class="login">
+        <section class="login" data-productos>
             <form action="" class="login__contenido">
                 <fieldset>
                     <legend class="login__legend">Iniciar Sesión</legend>
@@ -47,6 +49,14 @@
                 <span class="mensaje-error-boton"></span>
                 <button class="login__boton" data-boton-login>Entrar</button>
             </form>
+        </section>
+        <section class="categorias container">
+            <h1 class="resultado_busqueda_titulo"></h1>
+            <div 
+            
+                class="categorias__produtos" data-resultado-busqueda>
+
+            </div>
         </section>
         <section class="contacto container">
             <div class="contacto__seccion">
@@ -89,5 +99,6 @@
     </main>
     <script src="js/validaciones.js"></script>
     <script src="./js/validacion-login.js"></script>
+    <script type="module" src="./js/barraBusqueda.js"></script>
 </body>
 </html>

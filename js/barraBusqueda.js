@@ -1,9 +1,24 @@
-import { productosServices } from "../productos.service.js";
-import { div } from "./index.js";
+import { productosServices } from "./productos.service.js";
+
 
 const botonBusqueda = document.querySelector("[data-barra-busqueda]");
 const contenedor = document.querySelector("[data-resultado-busqueda]");
 
+const div = (imagen, nombre, precio, id) =>{
+
+    const crearDiv = document.createElement("div");
+    crearDiv.classList.add("categorias__produto");
+
+    const contenidoDiv = 
+    `
+    <img class="foto__producto" src="${imagen}" alt="taza star-war">
+    <span class="categorias_producto__nombre">${nombre}</span>
+    <span class="categorias_producto__precio">$ ${precio}</span>
+    <span><a class="categorias_producto__ver" href="ver-producto.html?id=${id}">Ver Producto</a></span>
+    `
+    crearDiv.innerHTML = contenidoDiv;
+    return crearDiv;
+};
 
 botonBusqueda.addEventListener("click", ()=>{
 
@@ -14,7 +29,7 @@ botonBusqueda.addEventListener("click", ()=>{
     funcionOcultarVer("[data-productos]", "none");
     funcionOcultarVer(".resultado_busqueda_titulo", "block");
     
-    productosServices.productosIndex().then((productos) => {
+    productosServices.listaProductos().then((productos) => {
         productos.forEach(producto => {
             const nombre = producto.nombre.toLowerCase()
 
@@ -28,8 +43,8 @@ botonBusqueda.addEventListener("click", ()=>{
                 contenedor.appendChild(nuevoDiv)
             }
         });
-    })
-})
+    }).catch((error) => alert("Ocurrio un error"));
+});
 
 const funcionOcultarVer = (divClass, tipoDisplay) => {
     document.querySelector(divClass).style.display = tipoDisplay;
