@@ -1,4 +1,0 @@
-http://localhost:3000/producto
-json-server --watch tienda.json
-
-ctrol c para salir del server
