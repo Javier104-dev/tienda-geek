@@ -1,0 +1,18 @@
+.categorias__titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categorias__titulo__nombre{
+    font-size: 2rem;
+    color: #464646;
+    font-weight: 700;
+}
+
+.categorias__ver_todo{
+    font-style: normal;
+    font-weight: 700;
+    color: #2A7AE4;
+    text-decoration: none;
+}

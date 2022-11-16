@@ -1,0 +1,21 @@
+.contacto__area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    /*height: auto;*/ /*auto ocupa todo el alto del contenedor, pero con 100% no sucedia*/
+    /*ya no es necesario por que le pusimos margin a los elementos y ahora el contenedor ocupa el espacio que le dimos con eso*/
+}
+
+.contacto__legend{
+    font-weight: 700;
+}
+
+.contacto__boton{
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    border: none;
+    align-self: flex-start; /*ponemos el boton a la izquierda*/ /*en la clase usamos align-items: initial;*/
+}

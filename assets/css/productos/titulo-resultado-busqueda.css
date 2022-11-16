@@ -1,0 +1,8 @@
+.resultado_busqueda_titulo{
+    display: none;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #464646;
+    font-weight: 700;
+}

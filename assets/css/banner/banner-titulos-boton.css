@@ -1,0 +1,22 @@
+.banner__contenido__titulo{
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 4rem;
+}
+
+.banner__contenido__subtitulo{
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+}
+
+.banner__contenido__boton{
+    padding: 1rem;
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration:none;
+}
