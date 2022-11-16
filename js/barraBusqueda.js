@@ -27,7 +27,7 @@ botonBusqueda.addEventListener("click", ()=>{
     contenedor.innerHTML = "";
 
     funcionOcultarVer("[data-productos]", "none");
-    funcionOcultarVer(".resultado_busqueda_titulo", "block");
+    funcionOcultarVer(".section_busqueda", "block");
     
     productosServices.listaProductos().then((productos) => {
         productos.forEach(producto => {

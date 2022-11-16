@@ -1,0 +1,20 @@
+.todos__los__productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.todos__los__productos__titulo{
+    font-weight: 700;
+    color: #464646;
+    font-size: 3rem;
+}
+
+.agregar__producto__boton{
+    font-weight: 400;
+    color: #ffffff;
+    border: none;
+    background: #2A7AE4;
+    padding: 1rem 2rem;
+}

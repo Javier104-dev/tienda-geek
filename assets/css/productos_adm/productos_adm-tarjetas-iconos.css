@@ -1,0 +1,28 @@
+.categorias__contenedor__foto{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.categoria__iconos__editar{
+    font-size: 1.3rem;
+    position: absolute;
+    padding: 0.8rem 0.8rem 0 0;
+    color: white;
+}
+
+.tacho{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.editar{
+    text-decoration: none;
+    color: white;
+}
+
+.producto__id{
+    font-weight: 500;
+    color: #464646;
+    width: 215px; /*para que el span tenga salto de linea, pongo el ancho de la foto*/
+}

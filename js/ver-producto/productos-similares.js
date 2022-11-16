@@ -1,6 +1,6 @@
 import { productosServices } from "../productos.service.js";
 
-const contenedorSimilares = document.querySelector(".categorias__produtos");
+const contenedorSimilares = document.querySelector("[data-productos-similares]");
 
 const div = (imagen, nombre, precio, id) =>{
 
