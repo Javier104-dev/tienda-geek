@@ -31,9 +31,10 @@
                 <div class="cabecera__imagenes">
                     <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
                     <div class="cabecera__buscador__contenedor">
-                        <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?">
-                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador" data-barra-busqueda>
+                        <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?" data-input-busqueda>
+                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador" data-boton-busqueda>
                     </div>
+                </div>
                 </div>
                 <a href="./inicio-sesion.html" class="cabecera__boton">Login</a>
             </nav>
@@ -51,14 +52,6 @@
 
                 </div>
             </section>
-        </section>
-        <section class="section__busqueda container">
-            <h1 class="section__busqueda__titulo"></h1>
-            <div 
-            
-                class="section__busqueda__productos" data-resultado-busqueda>
-
-            </div>
         </section>
         <section class="contacto container">
             <div class="contacto__seccion">
@@ -98,7 +91,7 @@
     </footer>
     <script type="module" src="js/ver-producto/ver-producto.js"></script>
     <script type="module" src="js/ver-producto/productos-similares.js"></script>
-    <script type="module" src="js/barraBusqueda.js"></script>
+    <script type="module" src="js/busqueda.js"></script>
     </main>
 </body>
 </html>

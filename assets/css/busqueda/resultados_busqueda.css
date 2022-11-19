@@ -1,9 +1,6 @@
 .section__busqueda{
-    
     background: #F5F5F5;
-    /* padding-bottom: 5rem; */
-    /* height: calc(100vh - 200px) */
-    height: calc(100vh - 120px)
+    padding-bottom: 5rem;
 }
 
 .section__busqueda__titulo{
