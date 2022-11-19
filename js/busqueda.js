@@ -17,10 +17,6 @@ function redireccion(){
     window.location.href = `./resultados-busqueda.html?resultado=${$input}`;
 }
 
-const $urlPagina = window.location.search
-const inputParametro = new URLSearchParams($urlPagina);
-const prametro = inputParametro.get("resultado")
-
 //inputParametro.set("resultado", "nuevafuente")
 //inputParametro.toString() = resultado=nuevafuente, esto nos da eso, podemos usar metodos del URLSearchParams y luego agregarlos manuealmente
 
@@ -42,11 +38,24 @@ const div = (imagen, nombre, precio, id) =>{
     return crearDiv;
 };
 
-function resultados (input){
-    const inputMinusculas = input.toLowerCase();
+function condicion(){
+
+    const $urlPagina = window.location.search
+    const inputParametro = new URLSearchParams($urlPagina);
+    const prametro = inputParametro.get("resultado")
+
+    if(prametro){
+        resultados(prametro);
+    }else{
+        return;
+    }
+};
+
+function resultados (parametroURL){
+
+    const inputMinusculas = parametroURL.toLowerCase();
     contenedor.innerHTML = "";
 
-    
     productosServices.listaProductos().then((productos) => {
         productos.forEach(producto => {
             const nombre = producto.nombre.toLowerCase()
@@ -56,19 +65,19 @@ function resultados (input){
                 tituloResultados("Debes escribir alguna palabra para realizar la busqueda");
             
             }else if(nombre.includes(inputMinusculas.trim())){ //con trim() le quitamos los espacios al comienzo, tambien podemos hacer que funcione la busqueda si ponen espacios al comienzo
-                tituloResultados(`Resultados de busqueda para "${input}"`);
+                tituloResultados(`Resultados de busqueda para "${parametroURL}"`);
                 const nuevoDiv = div(producto.imagen, producto.nombre, producto.precio, producto.id)
                 contenedor.appendChild(nuevoDiv)
 
             }else if(!contenedor.innerHTML){
-                tituloResultados(`Sin resultados para "${input}"`)
+                tituloResultados(`Sin resultados para "${parametroURL}"`)
             }
         });
     }).catch((error) => alert("Ocurrio un error"));
 };
 
-resultados (prametro)
-
 const tituloResultados = (texto) => {
     document.querySelector(".section__busqueda__titulo").textContent = texto;
 }
+
+condicion();
