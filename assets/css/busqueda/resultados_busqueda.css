@@ -1,7 +1,9 @@
 .section__busqueda{
-    display: none;
+    
     background: #F5F5F5;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
+    /* height: calc(100vh - 200px) */
+    height: calc(100vh - 120px)
 }
 
 .section__busqueda__titulo{

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Iniciar sesion - AluraGeek</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/base/normalize.css">
+    <link rel="stylesheet" href="assets/css/base/reset.css">
+    <link rel="stylesheet" href="assets/css/base/style.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
+    <link rel="stylesheet" href="assets/css/cabecera/cabecera-buscador.css">
+    <link rel="stylesheet" href="assets/css/login/login.css">
+    <link rel="stylesheet" href="assets/css/login/login-formulario.css">
+    <link rel="stylesheet" href="assets/css/login/login-formularios-input.css">
+    <link rel="stylesheet" href="assets/css/login/login-formulario-input-errores.css">
+    <link rel="stylesheet" href="assets/css/login/login-formulario-boton.css">
+    <link rel="stylesheet" href="assets/css/productos_adm/productos_adm-titulo-boton.css">
+    <link rel="stylesheet" href="assets/css/productos_adm/productos_adm-tarjetas-iconos.css">
+    <link rel="stylesheet" href="assets/css/productos/productos-contenedores.css">
+    <link rel="stylesheet" href="assets/css/productos/productos-titulos-secciones.css">
+    <link rel="stylesheet" href="assets/css/productos/productos-tarjetas.css">
+    <link rel="stylesheet" href="assets/css/busqueda/resultados_busqueda.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-menu-nav.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-formulario.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-formulario-nombre.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-formulario-mensaje.css">
+    <link rel="stylesheet" href="assets/css/contacto/contacto-formulario-errores.css">
+    <link rel="stylesheet" href="assets/css/footer/footer.css">
+</head>
+<body>
+    <header>
+        <section class="cabecera container">
+            <nav class="cabecera__navegacion">
+                <div class="cabecera__imagenes">
+                    <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
+                    <div class="cabecera__buscador__contenedor">
+                        <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?" data-input-busqueda>
+                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador" data-boton-busqueda>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main>
+
+        <section class="section__busqueda container">
+            <h1 class="section__busqueda__titulo"></h1>
+            <div 
+            
+                class="section__busqueda__productos" data-resultado-busqueda>
+
+            </div>
+        </section>
+        <section class="contacto container">
+            <div class="contacto__seccion">
+                <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
+                <ul class="contacto__items">
+                    <li>Quienes somos</li>
+                    <li>Politicas de privacidad</li>
+                    <li>Programa de fidelidad</li>
+                    <li>Nuestras Tiendas</li>
+                    <li>Quiero ser franquiciado</li>
+                    <li>Anúncie aquí</li>
+                </ul>
+                <form action="" class="contacto__area">
+                    <fieldset class="contacto__area__inputs">
+                        <legend class="contacto__legend">Hable con nosotros</legend>
+                        <div class="contacto__nombre">
+                            <label for="input__nombre">Nombre</label>
+                            <input class="contacto__nombre__input campo-validar" id="input__nombre" type="text" required data-tipo="nombre" pattern="[\s\S]{0,40}">
+                            <span class="contacto__mensaje__error"></span>
+                        </div>
+                        <div class="contacto__mensaje">
+                            <label for="text__area">Escribe tu mensaje</label>
+                            <textarea name="" class="contacto__textarea campo-validar" id="text__area" cols="0" rows="5" required data-tipo="mensaje" pattern="[\s\S]{2,120}"></textarea> <!--quitarle las columnas para que no tenga interferencia con los margenes-->
+                            <span class="contacto__mensaje__error"></span>
+                        </div>
+                    </fieldset>
+                    <button class="contacto__boton">Enviar mensaje</button>
+                </form>
+                </div>
+            </div>
+        </section>
+    <footer>
+        <section class="footer">
+            <div class="footer__contenido">
+                <span>Desarrollado por Javier Villca</span>
+                <span>2022</span>
+            </div>
+        </section>
+    </footer>
+    </main>
+    <script src="js/busqueda.js"></script>
+    <script src="js/validaciones.js"></script>
+
+
+</body>
+</html>
