@@ -1,0 +1,22 @@
+{
+  "name": "tienda-geek",
+  "version": "1.0.0",
+  "description": "Proyecto tienda Geek ",
+  "main": "index.html",
+  "scripts": {
+    "comenzar-server": "json-server --watch tienda.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javier104-dev/Tienda-geek.git"
+  },
+  "author": "Javier Villca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Javier104-dev/Tienda-geek/issues"
+  },
+  "homepage": "https://github.com/Javier104-dev/Tienda-geek#readme",
+  "dependencies": {
+    "json-server": "^0.17.1"
+  }
+}
