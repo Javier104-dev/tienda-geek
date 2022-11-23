@@ -9,3 +9,5 @@ Para instalar json-server solamente usar
 y para iniciarlo usar 
 
 "npm run comenzar-server"
+
+https://javier104-dev.github.io/Tienda-geek/screens/
