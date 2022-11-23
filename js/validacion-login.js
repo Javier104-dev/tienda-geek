@@ -1,4 +1,4 @@
-const inputs = document.querySelectorAll(".login_input");
+const inputs = document.querySelectorAll(".login__input");
 
 
 inputs.forEach( (input) => {

@@ -9,7 +9,7 @@ const crearDiv = (nombre, precio, imagen, id) =>{
         <div class="categorias__contenedor__foto">
             <div class="categoria__iconos__editar">
                 <i class="fa-solid fa-trash tacho" data-borrar id="${id}"></i>
-                <a href="../editar-producto.html?id=${id}"><i class="fa-sharp fa-solid fa-pen editar" data-editar></i></a>
+                <a href="./editar-producto.html?id=${id}"><i class="fa-sharp fa-solid fa-pen editar" data-editar></i></a>
             </div>
             <img class="foto__producto" src="${imagen}" alt="taza star-war">
         </div>

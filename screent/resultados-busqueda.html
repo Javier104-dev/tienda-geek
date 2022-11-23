@@ -5,55 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Todos los Productos - AluraGeek</title>
-    <link rel="stylesheet" href="assets/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/base/normalize.css">
-    <link rel="stylesheet" href="assets/css/base/reset.css">
-    <link rel="stylesheet" href="assets/css/base/style.css">
-    <link rel="stylesheet" href="assets/css/cabecera/cabecera.css">
-    <link rel="stylesheet" href="assets/css/cabecera/cabecera-buscador.css">
-    <link rel="stylesheet" href="assets/css/productos/productos-contenedores.css">
-    <link rel="stylesheet" href="assets/css/productos/productos-titulos-secciones.css">
-    <link rel="stylesheet" href="assets/css/productos/productos-tarjetas.css">
-    <link rel="stylesheet" href="assets/css/busqueda/resultados_busqueda.css">
-    <link rel="stylesheet" href="assets/css/productos_adm/productos_adm-titulo-boton.css">
-    <link rel="stylesheet" href="assets/css/productos_adm/productos_adm-tarjetas-iconos.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-menu-nav.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-formulario.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-formulario-nombre.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-formulario-mensaje.css">
-    <link rel="stylesheet" href="assets/css/contacto/contacto-formulario-errores.css">
-    <link rel="stylesheet" href="assets/css/footer/footer.css">
+    <title>Iniciar sesion - AluraGeek</title>
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/base/normalize.css">
+    <link rel="stylesheet" href="../assets/css/base/reset.css">
+    <link rel="stylesheet" href="../assets/css/base/style.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera.css">
+    <link rel="stylesheet" href="../assets/css/cabecera/cabecera-buscador.css">
+    <link rel="stylesheet" href="../assets/css/login/login.css">
+    <link rel="stylesheet" href="../assets/css/login/login-formulario.css">
+    <link rel="stylesheet" href="../assets/css/login/login-formularios-input.css">
+    <link rel="stylesheet" href="../assets/css/login/login-formulario-input-errores.css">
+    <link rel="stylesheet" href="../assets/css/login/login-formulario-boton.css">
+    <link rel="stylesheet" href="../assets/css/productos_adm/productos_adm-titulo-boton.css">
+    <link rel="stylesheet" href="../assets/css/productos_adm/productos_adm-tarjetas-iconos.css">
+    <link rel="stylesheet" href="../assets/css/productos/productos-contenedores.css">
+    <link rel="stylesheet" href="../assets/css/productos/productos-titulos-secciones.css">
+    <link rel="stylesheet" href="../assets/css/productos/productos-tarjetas.css">
+    <link rel="stylesheet" href="../assets/css/busqueda/resultados_busqueda.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-menu-nav.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-formulario.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-formulario-nombre.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-formulario-mensaje.css">
+    <link rel="stylesheet" href="../assets/css/contacto/contacto-formulario-errores.css">
+    <link rel="stylesheet" href="../assets/css/footer/footer.css">
 </head>
 <body>
     <header>
         <section class="cabecera container">
             <nav class="cabecera__navegacion">
                 <div class="cabecera__imagenes">
-                    <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
+                    <a href="./index.html"><img src="../assets/Imagenes/Logo.png" alt="logo tienda"></a>
                     <div class="cabecera__buscador__contenedor">
-                        <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?">
-                        <img class="cabecera__buscador__lupa" src="assets/Imagenes/lupa.png" alt="Lupa buscador" data-buscador-boton>
+                        <input class="cabecera__buscador" type="text" placeholder="¿Qué deseas buscar?" data-input-busqueda>
+                        <img class="cabecera__buscador__lupa" src="../assets/Imagenes/lupa.png" alt="Lupa buscador" data-boton-busqueda>
                     </div>
                 </div>
             </nav>
         </section>
     </header>
     <main>
-        <section class="categorias container" data-productos-adm>
-            <section class="categoria-grupo">
-                <div class="todos__los__productos">
-                    <h1 class="todos__los__productos__titulo">Todos los productos</h1>
-                    <button onclick="location.href='./agregar-producto.html'" class="agregar__producto__boton">Agregar Producto</button>
-                </div>
-                <div 
-                
-                    class="categorias__produtos" data-todos>
-                    
-                </div>
-            </section>
-        </section>
+
         <section class="section__busqueda container">
             <h1 class="section__busqueda__titulo"></h1>
             <div 
@@ -64,7 +57,7 @@
         </section>
         <section class="contacto container">
             <div class="contacto__seccion">
-                <a href="./index.html"><img src="assets/Imagenes/Logo.png" alt="logo tienda"></a>
+                <a href="./index.html"><img src="../assets/Imagenes/Logo.png" alt="logo tienda"></a>
                 <ul class="contacto__items">
                     <li>Quienes somos</li>
                     <li>Politicas de privacidad</li>
@@ -101,8 +94,9 @@
         </section>
     </footer>
     </main>
-    <script src="./js/validaciones.js"></script>
-    <script type="module" src="js/todos-los-productos/todos-los-productos-controllers.js"></script>
-    <script type="module" src="js/barraBusqueda-adm.js"></script>
+    <script type="module" src="../js/busqueda.js"></script>
+    <script src="../js/validaciones.js"></script>
+
+
 </body>
 </html>
