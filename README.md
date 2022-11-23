@@ -10,4 +10,4 @@ y para iniciarlo usar
 
 "npm run comenzar-server"
 
-https://javier104-dev.github.io/Tienda-geek/
+https://javier104-dev.github.io/Tienda-geek/screens/
