@@ -20,3 +20,20 @@
     cursor: pointer;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px){
+    .cabecera__navegacion{
+        flex-direction: column;
+        align-items: initial;
+        padding: 0.5rem 0;
+        gap: 1rem;
+    }
+
+    .cabecera__imagenes{
+        justify-content: space-between;
+    }
+
+    .cabecera__boton{
+        text-align: center;
+    }
+}

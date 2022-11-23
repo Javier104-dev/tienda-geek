@@ -8,3 +8,13 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
+
+@media screen and (max-width: 768px){
+    .contacto__seccion{
+        flex-direction: column;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        align-items: center;
+        gap: 2rem;
+    }
+}

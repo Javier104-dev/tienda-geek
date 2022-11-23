@@ -12,3 +12,9 @@
     gap: 3rem;
     padding: 2rem 0;
 }
+
+@media screen and (max-width: 768px){
+    .banner{
+        height: 20rem;
+    }
+}

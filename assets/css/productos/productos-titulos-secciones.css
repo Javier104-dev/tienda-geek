@@ -16,3 +16,9 @@
     color: #2A7AE4;
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px){
+    .categorias__titulo__nombre{
+        margin: 0;
+    }
+}

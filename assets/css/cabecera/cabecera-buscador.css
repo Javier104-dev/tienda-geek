@@ -21,3 +21,18 @@
 .cabecera__buscador__lupa{
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px){
+    .cabecera__buscador{
+        width: 190px;
+        padding: 1rem 0.5rem;
+    }
+
+    .cabecera__buscador__lupa{
+        transform: translateX(166px);
+    }
+
+    .cabecera__buscador__contenedor{
+        width: 190px;
+    }
+}

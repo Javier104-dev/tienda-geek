@@ -4,7 +4,7 @@
   "description": "Proyecto tienda Geek ",
   "main": "index.html",
   "scripts": {
-    "iniciar-server": "json-server --watch tienda.json"
+    "iniciar-servidor": "json-server --watch tienda.json"
   },
   "repository": {
     "type": "git",

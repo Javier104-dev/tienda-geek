@@ -20,3 +20,36 @@ textarea {
     Y finalmente se dividirá por dos, obteniendo 30px.*/
     padding-right: calc((100% - 1330px)/2);
 }
+
+@media screen and (max-width: 1024px){
+    .container{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+/* @media screen and (max-width: 1024px){
+    .proyecto__descripcion__titulo{
+        text-align: initial;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .proyecto__descripcion__titulo{
+        font-size: 1.4rem;
+        text-align: center;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .proyecto__descripcion__lista{
+        text-align: initial;
+    }
+} */
