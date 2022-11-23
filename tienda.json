@@ -1,7 +1,7 @@
 {
   "producto": [
     {
-      "imagen": "./assets/imagenes/stas-war/capitan.jpg",
+      "imagen": "../assets/imagenes/stas-war/capitan.jpg",
       "categoria": "starwars",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -9,7 +9,7 @@
       "id": "f6f30b25-e692-4221-9bae-2d877136f054"
     },
     {
-      "imagen": "./assets/imagenes/stas-war/lego.jpg",
+      "imagen": "../assets/imagenes/stas-war/lego.jpg",
       "categoria": "starwars",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -17,7 +17,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8b077cba4ab6"
     },
     {
-      "imagen": "./assets/imagenes/stas-war/sith.jpg",
+      "imagen": "../assets/imagenes/stas-war/sith.jpg",
       "categoria": "starwars",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -25,7 +25,7 @@
       "id": "6380d5d9-7dd0-477f-b850-9b2c088ea98e"
     },
     {
-      "imagen": "./assets/imagenes/stas-war/taza.jpg",
+      "imagen": "../assets/imagenes/stas-war/taza.jpg",
       "categoria": "starwars",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -33,7 +33,7 @@
       "id": "ff81c462-74d2-4cf5-b437-8b077cba1ab6"
     },
     {
-      "imagen": "./assets/imagenes/stas-war/yoda-bb.jpg",
+      "imagen": "../assets/imagenes/stas-war/yoda-bb.jpg",
       "categoria": "starwars",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -41,7 +41,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8b077cka1ab6"
     },
     {
-      "imagen": "./assets/imagenes/stas-war/yoda.jpg",
+      "imagen": "../assets/imagenes/stas-war/yoda.jpg",
       "categoria": "starwars",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -49,7 +49,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8b0773ba1ab6"
     },
     {
-      "imagen": "./assets/imagenes/consolas/consola1.jpg",
+      "imagen": "../assets/imagenes/consolas/consola1.jpg",
       "categoria": "consola",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -57,7 +57,7 @@
       "id": "f6f30b25-e692-4221-9bae-2d877139f054"
     },
     {
-      "imagen": "./assets/imagenes/consolas/consola2.jpg",
+      "imagen": "../assets/imagenes/consolas/consola2.jpg",
       "categoria": "consola",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -65,7 +65,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8b077cbf4ab6"
     },
     {
-      "imagen": "./assets/imagenes/consolas/consola3.jpg",
+      "imagen": "../assets/imagenes/consolas/consola3.jpg",
       "categoria": "consola",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -73,7 +73,7 @@
       "id": "6380d5d9-7dd0-477f-b850-9b2c898ea99e"
     },
     {
-      "imagen": "./assets/imagenes/consolas/consola4.jpg",
+      "imagen": "../assets/imagenes/consolas/consola4.jpg",
       "categoria": "consola",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -81,7 +81,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8b077cb09ab6"
     },
     {
-      "imagen": "./assets/imagenes/consolas/consola5.jpg",
+      "imagen": "../assets/imagenes/consolas/consola5.jpg",
       "categoria": "consola",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -89,7 +89,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8b077cba1436"
     },
     {
-      "imagen": "./assets/imagenes/consolas/consola6.jpg",
+      "imagen": "../assets/imagenes/consolas/consola6.jpg",
       "categoria": "consola",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -97,7 +97,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8b077cba79b6"
     },
     {
-      "imagen": "./assets/imagenes/diversos/diversos1.jpg",
+      "imagen": "../assets/imagenes/diversos/diversos1.jpg",
       "categoria": "diversos",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -105,7 +105,7 @@
       "id": "f6f30b25-e692-4221-9bae-2d8771324054"
     },
     {
-      "imagen": "./assets/imagenes/diversos/diversos2.jpg",
+      "imagen": "../assets/imagenes/diversos/diversos2.jpg",
       "categoria": "diversos",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -113,7 +113,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8h677cba1ab6"
     },
     {
-      "imagen": "./assets/imagenes/diversos/diversos3.jpg",
+      "imagen": "../assets/imagenes/diversos/diversos3.jpg",
       "categoria": "diversos",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -121,7 +121,7 @@
       "id": "6380d5d9-7dd0-477f-b850-9b2ch688ea99e"
     },
     {
-      "imagen": "./assets/imagenes/diversos/diversos4.jpg",
+      "imagen": "../assets/imagenes/diversos/diversos4.jpg",
       "categoria": "diversos",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -129,7 +129,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8b077c031ab6"
     },
     {
-      "imagen": "./assets/imagenes/diversos/diversos5.jpg",
+      "imagen": "../assets/imagenes/diversos/diversos5.jpg",
       "categoria": "diversos",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
@@ -137,7 +137,7 @@
       "id": "ff81c462-74d2-4cf5-bf37-8b07736a1ab6"
     },
     {
-      "imagen": "./assets/imagenes/diversos/diversos6.jpg",
+      "imagen": "../assets/imagenes/diversos/diversos6.jpg",
       "categoria": "diversos",
       "nombre": "Produxto XYZ",
       "precio": "60.00",
