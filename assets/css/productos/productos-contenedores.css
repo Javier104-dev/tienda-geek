@@ -20,4 +20,20 @@
         overflow: auto;
         flex-wrap: initial;
     }
+
+    .responsiva{
+        flex-wrap: wrap;
+        overflow: initial;
+        justify-content: space-evenly;
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .responsiva{
+        flex-wrap: wrap;
+        overflow: initial;
+        justify-content: space-evenly;
+        gap: 0;
+    }
 }

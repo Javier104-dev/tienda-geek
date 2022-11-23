@@ -18,3 +18,20 @@
     background: #2A7AE4;
     padding: 1rem 2rem;
 }
+
+@media screen and (max-width: 1024px){
+    .todos__los__productos__titulo{
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .todos__los__productos__titulo{
+        font-size: 1.5rem;
+    }
+
+    .agregar__producto__boton{
+        padding: 1rem 1rem;
+    }
+}

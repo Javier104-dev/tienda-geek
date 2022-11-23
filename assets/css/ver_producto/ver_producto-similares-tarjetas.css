@@ -26,3 +26,9 @@
     font-style: normal;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1024px){
+    .categorias__produto{
+        margin: 1rem 0;
+    }
+}

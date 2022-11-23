@@ -1,7 +1,7 @@
 .nuevo-producto__contenido{
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 100%;
     max-width: 600px;
     padding: 6rem 0;
 }
