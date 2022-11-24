@@ -1,22 +1,22 @@
 .banner__contenido__titulo{
     font-style: normal;
     font-weight: 700;
-    color: #FFFFFF;
+    color: var(--color-letras-blancas);
     font-size: 4rem;
 }
 
 .banner__contenido__subtitulo{
     font-style: normal;
     font-weight: 700;
-    color: #FFFFFF;
+    color: var(--color-letras-blancas);
     font-size: 1.5rem;
 }
 
 .banner__contenido__boton{
     padding: 1rem;
-    background: #2A7AE4;
+    background: var(--color-azul-boton);
     border: none;
-    color: #FFFFFF;
+    color: var(--color-letras-blancas);
     cursor: pointer;
     text-decoration:none;
 }

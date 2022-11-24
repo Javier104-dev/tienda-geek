@@ -8,6 +8,6 @@
 
 .nuevo-producto__legend{
     font-size: 2rem;
-    color: #464646;
+    color: var(--color-titulos-ceniza);
     font-weight: 700;
 }

@@ -2,7 +2,7 @@
     border: none;
     margin-top: 2rem;
     padding: 1.5rem 2rem;
-    background: #2A7AE4;
-    color: #FFFFFF;
+    background: var(--color-azul-boton);
+    color: var(--color-letras-blancas);
     box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
 .section__busqueda{
-    background: #F5F5F5;
+    background: var(--color-fondo-blanco-gris);
     padding-bottom: 5rem;
 }
 
@@ -7,7 +7,7 @@
     padding-top: 4rem;
     padding-bottom: 1rem;
     font-size: 2rem;
-    color: #464646;
+    color: var(--color-titulos-ceniza);
     font-weight: 700;
 }
 

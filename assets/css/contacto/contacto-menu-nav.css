@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     font-weight: 500;
-    color: #464646;
+    color: var(--color-titulos-ceniza);
     justify-content: space-between;
 }
 

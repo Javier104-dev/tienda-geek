@@ -12,8 +12,8 @@
 .contacto__boton{
     margin-top: 1rem;
     padding: 1rem;
-    background: #2A7AE4;
-    color: #FFFFFF;
+    background: var(--color-azul-boton);
+    color: var(--color-letras-blancas);
     border: none;
     align-self: flex-start; /*ponemos el boton a la izquierda*/ /*en la clase usamos align-items: initial;*/
 }

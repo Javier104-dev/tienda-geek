@@ -13,8 +13,8 @@
 
 .cabecera__boton{
     padding: 1rem 4rem;
-    border: 1px solid #2A7AE4;
-    color: #2A7AE4;
+    border: 1px solid var(--color-azul-boton);
+    color: var(--color-azul-boton-letra);
     box-sizing: border-box;
     background: none;
     cursor: pointer;

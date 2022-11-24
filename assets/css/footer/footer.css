@@ -1,7 +1,7 @@
 .footer{
     display: flex;
     justify-content: center;
-    background: #FFFFFF;
+    background: var(--color-letras-blancas);
 }
 
 .footer__contenido{
@@ -10,5 +10,5 @@
     align-items: center;
     font-weight: 500;
     padding: 3rem 0;
-    color: #464646;
+    color: var(--color-titulos-ceniza);
 }

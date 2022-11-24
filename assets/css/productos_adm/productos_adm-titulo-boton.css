@@ -7,15 +7,15 @@
 
 .todos__los__productos__titulo{
     font-weight: 700;
-    color: #464646;
+    color: var(--color-titulos-ceniza);
     font-size: 3rem;
 }
 
 .agregar__producto__boton{
     font-weight: 400;
-    color: #ffffff;
+    color: var(--color-letras-blancas);
     border: none;
-    background: #2A7AE4;
+    background: var(--color-azul-boton);
     padding: 1rem 2rem;
 }
 

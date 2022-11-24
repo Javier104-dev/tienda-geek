@@ -8,7 +8,7 @@
     font-size: 1.3rem;
     position: absolute;
     padding: 0.8rem 0.8rem 0 0;
-    color: white;
+    color: var(--color-letras-blancas);
 }
 
 .tacho{
@@ -18,11 +18,11 @@
 
 .editar{
     text-decoration: none;
-    color: white;
+    color: var(--color-letras-blancas);
 }
 
 .producto__id{
     font-weight: 500;
-    color: #464646;
+    color: var(--color-titulos-ceniza);
     width: 215px; /*para que el span tenga salto de linea, pongo el ancho de la foto*/
 }

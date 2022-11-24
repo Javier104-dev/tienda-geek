@@ -10,7 +10,6 @@ textarea {
     outline:none;
 }
 
-
 .container{
     padding-left: calc((100% - 1330px)/2); /*con esto hacemos que todo tenga un ancho de 940px*/
     /*El paddingtomará 100% el ancho de la página, imagina que tu página tiene 1000px el calc serial .100% 1000px
@@ -35,21 +34,13 @@ textarea {
     }
 }
 
-/* @media screen and (max-width: 1024px){
-    .proyecto__descripcion__titulo{
-        text-align: initial;
-    }
+:root{
+    --color-letras-blancas: #FFFFFF;
+    --color-fondo-blanco-gris: #F5F5F5;
+    --color-blanco-celeste: #EAF2FD;
+    --color-azul-boton: #2A7AE4;
+    --color-azul-boton-letra: #2A7AE4;
+    --color-sombra-box:  rgba(0, 0, 0, 0.25);
+    --color-titulos-ceniza: #464646;
+    --color-letra-alerta-error: red;
 }
-
-@media screen and (max-width: 768px){
-    .proyecto__descripcion__titulo{
-        font-size: 1.4rem;
-        text-align: center;
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
-    }
-
-    .proyecto__descripcion__lista{
-        text-align: initial;
-    }
-} */

@@ -1,9 +1,9 @@
 .input-error{
-    border: 1px solid red;
+    border: 1px solid var(--color-letra-alerta-error);
 }
 
 .mensaje-error{
-    color: red;
+    color: var(--color-letra-alerta-error);
 }
 
 .mensaje-error{
@@ -12,5 +12,5 @@
 
 .mensaje-error-boton{
     margin-top: 1rem;
-    color: red;
+    color: var(--color-letra-alerta-error);
 }

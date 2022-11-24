@@ -4,7 +4,7 @@
     width: 350px;
     padding: 1rem 2rem;
     border: none;
-    background: #F5F5F5;
+    background: var(--color-fondo-blanco-gris);
     border-radius: 30px;
 }
 

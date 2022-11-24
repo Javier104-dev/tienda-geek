@@ -7,14 +7,14 @@
 .nuevo-producto__label{
     font-weight: 400;
     font-size: 1rem;
-    color: #464646;
+    color: var(--color-titulos-ceniza);
     margin-bottom: 0.5rem;
 }
 
 .nuevo-producto__input{
     border: none;
     padding: 0.5rem;
-    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 0.5px 1px var(--color-sombra-box);
     box-sizing: border-box;
 }
 

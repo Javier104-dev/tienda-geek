@@ -22,7 +22,7 @@
 
 .categorias__producto__ver{
     font-weight: 700;
-    color: #2A7AE4;
+    color: var(--color-azul-boton-letra);
     font-style: normal;
     text-decoration: none;
 }

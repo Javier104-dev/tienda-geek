@@ -1,8 +1,8 @@
 .login__boton{
     padding: 1rem;
-    background: #2A7AE4;
+    background: var(--color-azul-boton);
     border: none;
-    color: #FFFFFF;
+    color: var( --color-letras-blancas);
     font-weight: 600;
     box-sizing: border-box;
 }

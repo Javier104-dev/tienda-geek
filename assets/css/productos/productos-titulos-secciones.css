@@ -6,14 +6,14 @@
 
 .categorias__titulo__nombre{
     font-size: 2rem;
-    color: #464646;
+    color: var(--color-titulos-ceniza);
     font-weight: 700;
 }
 
 .categorias__ver__todo{
     font-style: normal;
     font-weight: 700;
-    color: #2A7AE4;
+    color: var(--color-azul-boton-letra);
     text-decoration: none;
 }
 

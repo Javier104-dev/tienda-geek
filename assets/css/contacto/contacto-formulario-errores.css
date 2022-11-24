@@ -1,7 +1,7 @@
 .contacto__mensaje__error{
-    color: red;
+    color: var(--color-letra-alerta-error);
 }
 
 .error{
-    border: 1px solid red;
+    border: 1px solid var(--color-letra-alerta-error);
 }

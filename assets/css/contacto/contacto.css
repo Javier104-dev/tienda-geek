@@ -1,5 +1,5 @@
 .contacto{
-    background: #EAF2FD;
+    background: var(--color-blanco-celeste);
 }
 
 .contacto__seccion{
