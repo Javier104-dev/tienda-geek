@@ -2,11 +2,11 @@
 
 Requiere de json-server para funcionar:
 
-Para instalar json-server solamente usar 
+Para instalar json-server usar 
 
 "npm install" 
 
-y para iniciarlo usar 
+Para iniciarlo usar 
 
 "npm run comenzar-server"
 
