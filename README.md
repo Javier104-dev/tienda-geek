@@ -24,7 +24,7 @@ La página no debía ser muy compleja para poder poner en práctica y pulir todo
 
 ### GitHub Pages
 Para visitar la tienda click en el link.
-- https://javier104-dev.github.io/Tienda-geek/screens/
+- https://javier104-dev.github.io/tienda-geek/screens/
 
 Solamente se podrá ver la tienda pero sin los productos expuestos, para verlos debe iniciarse el servidor.
 
@@ -65,7 +65,6 @@ Usamos Live Server para no tener conflictos con json-server.
 <p align='left'>
   <img
     alt='Página principal'
-    width='500'
     src='https://github.com/Javier104-dev/tienda-geek/assets/105408069/ddac0acc-aa63-4073-9adc-865400af8978'
   >
 </p>
@@ -75,7 +74,6 @@ Usamos Live Server para no tener conflictos con json-server.
 <p align='left'>
   <img
     alt='Descripción de producto'
-    width='500'
     src='https://github.com/Javier104-dev/tienda-geek/assets/105408069/4e16d798-46cd-4e63-8261-73c4ffd9ce39'
   >
 </p>
@@ -85,7 +83,6 @@ Usamos Live Server para no tener conflictos con json-server.
 <p align='left'>
   <img
     alt='Opciones de administrador'
-    width='500'
     src='https://github.com/Javier104-dev/tienda-geek/assets/105408069/219ade9f-f1e9-4934-9a3f-c31db6fa5366'
   >
 </p>
@@ -95,7 +92,6 @@ Usamos Live Server para no tener conflictos con json-server.
 <p align='left'>
   <img
     alt='Versión responsiva'
-    width='300'
     src='https://github.com/Javier104-dev/tienda-geek/assets/105408069/027650e0-fe97-42ec-ad65-29e7fc5b2aff'
   >
 </p>
