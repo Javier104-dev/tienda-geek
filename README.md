@@ -43,6 +43,7 @@ Solamente se podrá ver la tienda pero sin los productos expuestos, para verlos 
 
 ### Requerimientos:
 - IDE - Visual Studio Code v1.84.2
+- Git v2.43.0
 - Extensión Live Server
 - Node.js v20.9.0
 
