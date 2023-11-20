@@ -23,7 +23,7 @@ La página no debía ser muy compleja para poder poner en práctica y pulir todo
 - Repositorio GitHub: git+https://github.com/Javier104-dev/tienda-geek.git
 
 ### GitHub Pages
-Para visitar la tienda click en el link.
+Para visitar la tienda clic en el link.
 - https://javier104-dev.github.io/tienda-geek/screens/
 
 Solamente se podrá ver la tienda pero sin los productos expuestos, para verlos debe iniciarse el servidor.
