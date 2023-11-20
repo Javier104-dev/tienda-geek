@@ -60,7 +60,7 @@ Usamos Live Server para no tener conflictos con json-server.
 - `Correo = login1@hotmail.com`
 - `Contraseña = Login123`
 
-<h2 align='center'>Lo que Encontrarás</h2>
+<h2 align='center'>Lo que encontrarás</h2>
 
 ### Página principal
 <p align='left'>
