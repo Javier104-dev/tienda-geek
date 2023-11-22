@@ -15,7 +15,7 @@ La página no debía ser muy compleja para poder poner en práctica y pulir todo
 | agregar-producto.html    | Página de administrador, formulario para ingresar un producto a la tienda                       |
 | editar-producto.html     | Página de administrador, formulario para editar un producto existente de la tienda              |
 
-### Especificaciones:
+### Especificaciones
 - Servidor: http://localhost:3000/producto
 - Versión: 0.1.0
 - Diseño responsivo
@@ -30,7 +30,7 @@ Solamente se podrá ver la tienda pero sin los productos expuestos, para verlos 
 
 <h2 align='center'>Requisitos del proyecto</h2>
 
-### Requisitos:
+### Requisitos
 - Una página de inicio que contiene un botón de inicio de sesión y un motor de búsqueda de productos ofrecidos por la empresa.
 - Un banner que contenga descuentos, promociones o informaciónes relevante del momento.
 - Una galería con información del producto, como imagen, nombre del producto, precio y un enlace a la página de descripción del producto.
@@ -41,7 +41,7 @@ Solamente se podrá ver la tienda pero sin los productos expuestos, para verlos 
 
 <h2 align='center'>Instrucciones de instalación</h2>
 
-### Requerimientos:
+### Requerimientos
 - IDE - Visual Studio Code v1.84.2
 - Git v2.43.0
 - Extensión Live Server
@@ -49,7 +49,7 @@ Solamente se podrá ver la tienda pero sin los productos expuestos, para verlos 
 
 Usamos Live Server para no tener conflictos con json-server.
 
-### Preparando el ambiente:
+### Preparando el ambiente
 - Descargar o clonar el repositorio.
 - Instalar la Extensión [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) para visualizar el `index.html`.
 - Ejecutar en consola `npm install` para instalar las dependencias requeridas.
